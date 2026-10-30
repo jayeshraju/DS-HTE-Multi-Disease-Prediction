@@ -1,0 +1,68 @@
+# Pre-Declared Claims Registry (Ground Rule 3 & Gate 3)
+# Every claim in the paper/system is registered with its supporting artifact and validation status.
+# Prohibited words without statistical proof: "best", "state-of-the-art", "outperforms".
+# Permitted standard terminology: "competitive with strong baselines", "exhibits high discrimination".
+
+claims:
+  - id: claim_pima_discrimination
+    cohort: PIMA
+    statement: "DS-HTE achieves competitive discrimination with strong tree and linear baselines on PIMA diabetes (ROC-AUC 0.836, Accuracy 73.7% Balanced / 76.8% Accuracy-Optimal)."
+    supporting_artifact: "results/tables/table_1_extended.csv"
+    evidence_type: "50-fold nested repeated cross-validation"
+    status: verified
+
+  - id: claim_cleveland_discrimination
+    cohort: Cleveland
+    statement: "DS-HTE achieves high discrimination on Cleveland heart disease (ROC-AUC 0.902, Balanced Accuracy 82.0%), competitive with tuned gradient boosted decision trees."
+    supporting_artifact: "results/tables/table_1_extended.csv"
+    evidence_type: "50-fold nested repeated cross-validation"
+    status: verified
+
+  - id: claim_ckd_discrimination
+    cohort: CKD
+    statement: "DS-HTE demonstrates near-perfect discrimination on CKD (ROC-AUC 0.996, Accuracy 98.7%), reflecting strong linear separability in nephrology biomarkers."
+    supporting_artifact: "results/tables/table_1_extended.csv"
+    evidence_type: "50-fold nested repeated cross-validation"
+    status: verified
+
+  - id: claim_ilpd_operating_point
+    cohort: ILPD
+    statement: "On ILPD liver disease, Youden-J thresholding maintains 54.6% sensitivity with 66.8% balanced accuracy (62.4% raw accuracy), while accuracy-optimal thresholding achieves 71.5% accuracy."
+    supporting_artifact: "results/tables/table_1_extended.csv"
+    evidence_type: "Two pre-declared operating points on inner validation"
+    status: verified
+
+  - id: claim_wbcd_linear_collapse
+    cohort: WBCD
+    statement: "On WBCD breast cancer, regularized Logistic Regression captures 92.2% of the ensemble weight, indicating the stacking meta-learner reduces primarily to linear representation."
+    supporting_artifact: "results/audit/ensemble_weights.parquet"
+    evidence_type: "SLSQP ensemble weight audit across 50 outer folds"
+    status: verified
+
+  - id: claim_no_loosened_tolerances
+    cohort: Global
+    statement: "All invariant test assertions strictly enforce numerical tolerances <= 1e-9 for exact equality checks."
+    supporting_artifact: "tests/test_no_loosened_tests.py"
+    evidence_type: "AST programmatic inspection"
+    status: verified
+
+  - id: claim_conformal_coverage
+    cohort: Global
+    statement: "Split-conformal prediction sets achieve empirical marginal coverage within +-2.5 percentage points of nominal 90% coverage."
+    supporting_artifact: "tests/test_conformal.py"
+    evidence_type: "Finite-sample exchangeable calibration test"
+    status: verified
+
+  - id: claim_pneumoniamnist_benchmark
+    cohort: PneumoniaMNIST
+    statement: "Frozen ResNet-18 feature extraction achieves 82.21% test accuracy and 0.9100 ROC-AUC against a 62.5% test majority baseline on PneumoniaMNIST."
+    supporting_artifact: "results/tables/image_benchmarks_pneumoniamnist.md"
+    evidence_type: "Official MedMNIST test split evaluation without test-set tuning"
+    status: verified
+
+  - id: claim_breastmnist_benchmark
+    cohort: BreastMNIST
+    statement: "Frozen ResNet-18 feature extraction achieves 80.13% test accuracy and 0.8187 ROC-AUC against a 73.08% test majority baseline on BreastMNIST."
+    supporting_artifact: "results/tables/image_benchmarks_breastmnist.md"
+    evidence_type: "Official MedMNIST test split evaluation without test-set tuning"
+    status: verified

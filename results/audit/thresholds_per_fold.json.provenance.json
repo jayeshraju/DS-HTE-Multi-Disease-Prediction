@@ -1,0 +1,13 @@
+{
+  "artifact_file": "thresholds_per_fold.json",
+  "target_path": "results/audit/thresholds_per_fold.json",
+  "script_name": "src/evaluation/audit.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "ea91d289b252d22d189b322895b97f9afc5542915c36ab64ffa757c07dc926bc",
+  "timestamp": "2026-10-29T16:00:06.461900",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

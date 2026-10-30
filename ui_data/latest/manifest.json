@@ -1,0 +1,42 @@
+{
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "holdout_hash": "1bb216349c26aa24",
+  "profile": "paper",
+  "seeds": [
+    142,
+    242,
+    342,
+    442,
+    542,
+    642,
+    742,
+    842,
+    942,
+    1042
+  ],
+  "n_repeats": 10,
+  "n_outer_folds": 5,
+  "n_outer_estimates_per_dataset": 50,
+  "cohorts": [
+    "pima",
+    "cleveland",
+    "ckd",
+    "ilpd",
+    "wbcd"
+  ],
+  "dataset_hashes": {},
+  "library_versions": {
+    "python": "3.13.12",
+    "torch": "2.13.0+cpu",
+    "sklearn": "1.9.0",
+    "xgboost": "3.4.0",
+    "lightgbm": "4.7.0",
+    "catboost": "1.2.10",
+    "scipy": "1.18.0",
+    "pandas": "3.0.5",
+    "numpy": "2.4.6"
+  },
+  "start_time": "2026-10-29T11:34:41",
+  "end_time": "2026-10-29T12:49:54.944234"
+}

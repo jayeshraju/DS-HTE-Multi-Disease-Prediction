@@ -1,0 +1,13 @@
+{
+  "artifact_file": "medmnist_benchmark.json",
+  "target_path": "results/models/imaging/medmnist_benchmark.json",
+  "script_name": "src/run_all.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "8a6b2e3318ef1bd6207b924e5a2094d6a942c5e66e35bf779e40cbff00adb92e",
+  "timestamp": "2026-10-29T16:00:07.224435",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "artifact_file": "table_9_error_profile.md",
+  "target_path": "results/tables/table_9_error_profile.md",
+  "script_name": "src/reporting/tables.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "08fdc098a9c5f2baaf8ecc6b82a175aaa2c010a9f62c909fe0ad8afa3aff1636",
+  "timestamp": "2026-10-29T16:00:08.687652",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

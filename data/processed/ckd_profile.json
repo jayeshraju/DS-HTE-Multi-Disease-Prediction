@@ -1,0 +1,71 @@
+{
+  "cohort": "ckd",
+  "n_samples": 400,
+  "n_features": 24,
+  "numerical_features": [
+    "age",
+    "bp",
+    "bgr",
+    "bu",
+    "sc",
+    "sod",
+    "pot",
+    "hemo",
+    "pcv",
+    "wc",
+    "rc"
+  ],
+  "categorical_features": [
+    "sg",
+    "al",
+    "su",
+    "rbc",
+    "pc",
+    "pcc",
+    "ba",
+    "htn",
+    "dm",
+    "cad",
+    "appet",
+    "pe",
+    "ane"
+  ],
+  "class_balance": {
+    "counts": {
+      "1": 250,
+      "0": 150
+    },
+    "proportions": {
+      "1": 0.625,
+      "0": 0.375
+    },
+    "imbalance_ratio": 1.6666666666666667
+  },
+  "overall_missing_rate": 0.10541666666666667,
+  "feature_missing_rates": {
+    "age": 0.0225,
+    "bp": 0.03,
+    "sg": 0.1175,
+    "al": 0.115,
+    "su": 0.1225,
+    "rbc": 0.38,
+    "pc": 0.1625,
+    "pcc": 0.01,
+    "ba": 0.01,
+    "bgr": 0.11,
+    "bu": 0.0475,
+    "sc": 0.0425,
+    "sod": 0.2175,
+    "pot": 0.22,
+    "hemo": 0.13,
+    "pcv": 0.1775,
+    "wc": 0.265,
+    "rc": 0.3275,
+    "htn": 0.005,
+    "dm": 0.005,
+    "cad": 0.005,
+    "appet": 0.0025,
+    "pe": 0.0025,
+    "ane": 0.0025
+  }
+}

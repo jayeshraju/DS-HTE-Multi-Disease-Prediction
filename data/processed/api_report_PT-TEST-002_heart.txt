@@ -1,0 +1,45 @@
+================================================================================
+            EXPLAINABLE CLINICAL RISK REPORT — HEART
+================================================================================
+Patient ID : PT-TEST-002          Age / Gender : 55 Yrs / Male
+Report Date: 2026-08-12 15:11:04  Target Condition: heart
+--------------------------------------------------------------------------------
+DIAGNOSTIC RISK STRATIFICATION
+Predicted Pathological Probability: 0.3522 (35.2%)
+Assigned Clinical Risk Tier       : TIER II - MODERATE RISK
+Model Prediction Confidence       : 29.6%
+Clinical Context Summary          : Early sub-clinical biomarker elevations detected.
+--------------------------------------------------------------------------------
+PATIENT LABORATORY METRICS & NORMAL RANGES
+  Biomarker                 Raw Value       Normal Range        
+  age                       55.00           N/A                 
+  trestbps                  140.00          90 - 120 mmHg       
+  chol                      250.00          125 - 200 mg/dL     
+  thalach                   150.00          100 - 170 bpm       
+  oldpeak                   1.50            < 1.0 mm            
+  sex                       1.00            N/A                 
+  cp                        3.00            N/A                 
+  fbs                       0.00            N/A                 
+  restecg                   1.00            N/A                 
+  exang                     0.00            N/A                 
+  slope                     2.00            N/A                 
+  ca                        0.00            N/A                 
+  thal                      3.00            N/A                 
+--------------------------------------------------------------------------------
+TOP BIOMARKER ATTRIBUTIONS (SHAP VALUES)
+Risk Accelerators (Pushing Risk Higher):
+  + slope_2.0                 SHAP Attribution: +0.0898
+  + oldpeak                   SHAP Attribution: +0.0818
+  + sex_0.0                   SHAP Attribution: +0.0595
+  + trestbps                  SHAP Attribution: +0.0107
+Protective Factors (Lowering Risk):
+  - thal_3.0                  SHAP Attribution: -0.1297
+  - cp_3.0                    SHAP Attribution: -0.0810
+--------------------------------------------------------------------------------
+PHYSICIAN DECISION SUPPORT GUIDANCE
+  1. Continue routine preventative screening protocol.
+  2. Re-assess patient biomarker levels in 6 to 12 months.
+--------------------------------------------------------------------------------
+NOTICE: This AI decision support report is intended solely for licensed medical
+professionals. It does not replace independent clinical judgment.
+================================================================================

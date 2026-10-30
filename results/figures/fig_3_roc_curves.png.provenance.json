@@ -1,0 +1,13 @@
+{
+  "artifact_file": "fig_3_roc_curves.png",
+  "target_path": "results/figures/fig_3_roc_curves.png",
+  "script_name": "src/reporting/figures.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "e38ae212cb3433c1ffd6cce8c13b6c47fe83c894010d9cdba95263e4a585e18e",
+  "timestamp": "2026-10-29T16:00:06.599737",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

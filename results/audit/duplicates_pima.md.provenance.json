@@ -1,0 +1,13 @@
+{
+  "artifact_file": "duplicates_pima.md",
+  "target_path": "results/audit/duplicates_pima.md",
+  "script_name": "src/evaluation/audit.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "c6b68e18772668b1c0fc6cefd82af587cd048b7fdf3738f9582dd160e56dfe86",
+  "timestamp": "2026-10-29T16:00:06.154113",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

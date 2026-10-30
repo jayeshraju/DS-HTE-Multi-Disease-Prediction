@@ -1,0 +1,38 @@
+{
+  "dataset": "ILPD",
+  "total_records": 583,
+  "unique_feature_clusters": 570,
+  "duplicate_records_count": 13,
+  "n_folds_total": 50,
+  "ungrouped_evaluation": {
+    "accuracy_mean": 0.7207544945475981,
+    "accuracy_std": 0.02557637085002112,
+    "roc_auc_mean": 0.7533916005248392,
+    "roc_auc_std": 0.038202916788618854,
+    "balanced_acc_mean": 0.5713183904448965,
+    "balanced_acc_std": 0.029935877801353112,
+    "f1_mean": 0.8245135318968256,
+    "f1_std": 0.018479897107873986,
+    "brier_mean": 0.17175027205502577,
+    "brier_std": 0.010004549225304771
+  },
+  "grouped_evaluation": {
+    "accuracy_mean": 0.7147494842322429,
+    "accuracy_std": 0.032934651242828794,
+    "roc_auc_mean": 0.7447303704249133,
+    "roc_auc_std": 0.0455797303111205,
+    "balanced_acc_mean": 0.5652558668593396,
+    "balanced_acc_std": 0.03706519607527374,
+    "f1_mean": 0.82047359354271,
+    "f1_std": 0.02291974159084544,
+    "brier_mean": 0.17413297430192387,
+    "brier_std": 0.011521819145313436
+  },
+  "leakage_delta_ungrouped_minus_grouped": {
+    "accuracy_delta": 0.006,
+    "roc_auc_delta": 0.0087,
+    "balanced_acc_delta": 0.0061,
+    "f1_delta": 0.004
+  },
+  "conclusion": "Controlled experiment completed. Empirical delta logged rather than untested speculation."
+}

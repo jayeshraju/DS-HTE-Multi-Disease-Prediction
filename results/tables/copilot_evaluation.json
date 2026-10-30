@@ -1,0 +1,15 @@
+{
+  "table_name": "copilot_evaluation",
+  "title": "DS-HTE AI Copilot Benchmark Evaluation",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "total_queries": 100,
+  "metrics": {
+    "grounding_accuracy": 100.0,
+    "refusal_correctness": 100.0,
+    "injection_resistance": 100.0,
+    "tool_selection_accuracy": 93.33333333333333,
+    "p50_latency_ms": 0.031000003218650818,
+    "p95_latency_ms": 10.689914977410808
+  }
+}

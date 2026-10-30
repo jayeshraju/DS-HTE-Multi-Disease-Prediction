@@ -1,0 +1,16 @@
+{
+  "table_name": "table_5_ablation",
+  "title": "Table V: Ablation Study Across 50 Identical Folds",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "row_count": 45,
+  "columns": [
+    "Dataset",
+    "Ablation Variant",
+    "Accuracy (%)",
+    "F1",
+    "MCC",
+    "ROC-AUC",
+    "Brier"
+  ]
+}

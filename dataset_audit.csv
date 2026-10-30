@@ -1,0 +1,6 @@
+Dataset,Samples,Features,Target Column,Positive Count,Negative Count,Pos Prevalence (%),Missing Cells,Missingness (%),Duplicate Rows,Duplicate Feature Vectors,Conflicting Duplicates,Constant Features,NZV Features,Outlier Count,Suspicious Identifier Cols
+PIMA Indian Diabetes,768,8,Outcome,268,500,34.9,0,0.0,0,0,0,0,0,39,None
+Cleveland Heart Disease,303,13,target,139,164,45.87,6,0.14,0,0,0,0,0,16,None
+Chronic Kidney Disease,400,24,classification,250,150,62.5,1012,10.12,0,0,0,0,1,20,None
+Indian Liver Patient Dataset (ILPD),583,10,Dataset,416,167,71.36,4,0.06,13,13,0,0,0,30,None
+Wisconsin Breast Cancer Diagnostic (WBCD),569,30,diagnosis,212,357,37.26,0,0.0,0,0,0,0,5,29,id

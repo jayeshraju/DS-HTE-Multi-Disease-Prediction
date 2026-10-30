@@ -1,0 +1,13 @@
+{
+  "artifact_file": "ensemble_weights.parquet",
+  "target_path": "results/audit/ensemble_weights.parquet",
+  "script_name": "src/evaluation/audit.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "775a80b1a7d566cc5b456c1acd0bcaa0fbd64b8ae67de7a02a1e7a9d5ee44713",
+  "timestamp": "2026-10-29T16:00:06.330728",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

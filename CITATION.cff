@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software or benchmark artifacts, please cite it as below."
+title: "DS-HTE: Adaptive Explainable Multi-Disease Prediction Framework with Medical Vision & Grounded AI Copilot"
+version: 2.0.0
+date-released: 2026-10-29
+authors:
+  - family-names: "Mythily"
+    given-names: "V."
+  - family-names: "Gokul"
+    given-names: "L."
+  - family-names: "Vinoparkavi"
+    given-names: "D."
+  - family-names: "Jayesh"
+    given-names: "R."
+  - family-names: "Sukumar"
+    given-names: "P."
+  - family-names: "Jekan"
+    given-names: "N."
+repository-code: "https://github.com/clinical-ml/dshte-multidisease-predict"
+license: "Apache-2.0"
+keywords:
+  - "multi-disease prediction"
+  - "clinical decision support"
+  - "stacking ensemble"
+  - "tabular transformer"
+  - "conformal prediction"
+  - "grad-cam"
+  - "ai copilot"

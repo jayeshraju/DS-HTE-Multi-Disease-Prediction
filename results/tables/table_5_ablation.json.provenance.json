@@ -1,0 +1,13 @@
+{
+  "artifact_file": "table_5_ablation.json",
+  "target_path": "results/tables/table_5_ablation.json",
+  "script_name": "src/reporting/tables.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "8874a508933caa7a49ca9750d7f969ff5264070305d77456e550802813d2275b",
+  "timestamp": "2026-10-29T16:00:08.319301",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

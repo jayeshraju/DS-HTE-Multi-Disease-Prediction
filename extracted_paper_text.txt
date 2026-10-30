@@ -1,0 +1,253 @@
+Adaptive Explainable Multi-Disease Prediction Framework Using Dynamic Feature Optimization  and Disease-Specific Hybrid Transformer Ensembles
+
+
+Mythily V
+Department of Computer Science and Engineering,
+Nandha Engineering College,
+Erode, India,
+mythilycse12@gmail.com
+
+Gokul L
+Department of Computer Science and Engineering,
+Nandha Engineering College,
+Erode, India,
+gokullsr21@gmail.com
+
+
+Vinoparkavi D
+Department of Computer Science and Engineering,
+Nandha Engineering College,
+Erode, India,
+vinoparkavidurai@gmail.com
+
+Jayesh R
+Department of Computer Science and Engineering,
+Nandha Engineering College,
+Erode, India,
+jayeshraju9435@gmail.com
+
+
+Dr. Sukumar P
+Department of Electronics and Communication Engineering,
+Nandha Engineering College,
+Erode, India,
+sukumar.ponnusamy@nandhaengg.org
+
+Jekan N
+Department of Computer Science and Engineering,
+Nandha Engineering College,
+Erode, India,
+jekan0080@gmail.com
+
+
+
+Abstract - Prediction of disease from clinical data is still a challenging task due to heterogeneity in datasets, missing values, redundancy in features, imbalance in classes, and variations in disease-specific characteristics. In this paper, we propose an Adaptive Explainable Multi-Disease Prediction Framework that combines dynamic feature optimisation with disease-specific hybrid Transformer ensembles for clinical risk prediction. The proposed framework was experimented on five publicly available clinical datasets of diabetes, heart disease, chronic kidney disease, liver disease and breast cancer. This framework performs systematic preprocessing, missing-value handling, feature engineering, adaptive feature selection, class-imbalance correction, disease-specific model construction, ensemble learning, probability calibration, and explainable prediction using SHAP and LIME. A disease-specific hybrid architecture that combines transformer-based representation learning with gradient-boosting models to capture complex relationships between features and nonlinear decision boundaries in tabular clinical data. For the experimental evaluation, we use stratified repeated cross-validation in conjunction with an independent holdout evaluation to assess generalisation performance. A variety of evaluation measures, including accuracy, precision, sensitivity, specificity, F1-score, MCC, ROC-AUC, PR-AUC, Brier score and calibration error, are considered for a comprehensive  evaluation. The proposed framework achieves the best reported performance on the Wisconsin Breast Cancer Dataset with accuracy of 97.1% along with F1-score, MCC and Sensitivity of 0.958, 0.928 and 0.963 respectively. We also achieve a good performance in Chronic Kidney Disease dataset with accuracy of 95.6%, F1-score of 0.943, MCC of 0.887 and sensitivity of 0.944. The framework achieves 88.4% accuracy, 0.861 F1-score, 0.742 MCC and 0.846 sensitivity for the Cleveland heart disease dataset and accuracies of 81.2% and 79.3% for the PIMA diabetes and ILPD liver disease datasets respectively. Explainability analysis also further reveals the most influential clinical attributes for each disease and improves the transparency of model prediction. The results show that disease-specific optimisation and hybrid ensemble learning are promising directions for explainable multi-disease clinical risk prediction.
+Keywords: Multi-disease prediction, Explainable Artificial Intelligence, Dynamic Feature Optimization, Transformer, Ensemble Learning, Clinical Risk Prediction, SHAP, LIME, Tabular Learning.
+
+INTRODUCTION
+
+The growing availability of clinical datasets provides opportunities for machine learning-driven disease risk prediction and clinical decision support. Machine learning algorithms can identify complex relationships between clinical attributes and can help identify patients potentially at increased risk of disease early. But clinical prediction is still a challenge as health care data sets are heterogeneous, contain missing observations, redundant or irrelevant attributes and are often highly imbalanced. Furthermore, when used for decision support in healthcare, predictive models need to deliver sufficiently transparent explanations.
+Some previous work has explored different approaches to improve clinical prediction including feature selection, ensemble learning, transfer learning, Transformer-based models, multimorbidity analysis, and explainable artificial intelligence. These approaches have shown promising results, but they are often limited to single components of the prediction pipeline. Thus, an important research direction is to develop an integrated framework that can adapt the feature selection, model architecture, imbalance handling, calibration and explainability to the disease-specific characteristics.
+Another difficulty is the heterogeneity of clinical data sets. Different diseases are associated with different clinical attributes, sample sizes, feature distributions and class-balance characteristics. Hence, a common fixed model setting for all diseases may not be optimal. Instead, a disease-specific strategy can select relevant features and prediction mechanisms based on the characteristics of each dataset.
+Recently, transformer architectures have shown strong representation learning capability for structured and tabular data. However, gradient-boosting methods such as XGBoost, LightGBM and CatBoost are very competitive for tabular clinical data. The combination of Transformer based representation learning and heterogeneous gradient-boosting models thus presents an opportunity to exploit complementary modeling capabilities.
+To tackle these issues, this work proposes an adaptive explainable multi-disease prediction framework with dynamic feature optimization and disease-specific hybrid transformer ensembles. The proposed framework integrates adaptive feature optimization, disease-specific modeling, class imbalance correction, ensemble learning, probability calibration, threshold optimization, and feature-level explainability in a unified prediction pipeline.
+
+Research Gap:
+
+Based on the reviewed literature, the following limitations are identified:
+Existing multi-disease prediction approaches do not consistently adapt the feature-selection strategy to the characteristics of individual diseases.
+Many studies evaluate predictive performance using accuracy and a limited number of classification metrics, which may provide an incomplete assessment for imbalanced clinical datasets.
+Transformer-based models and conventional gradient-boosting approaches are often investigated independently rather than through a disease-specific hybrid ensemble.
+Explainability is frequently treated as an additional analysis step rather than being integrated into the complete prediction pipeline.
+Calibration and decision-threshold optimization are not consistently considered alongside predictive performance.
+A unified framework combining feature optimization, disease-specific ensemble learning, imbalance handling, calibration, and explainability across multiple clinical datasets remains insufficiently explored.
+
+Contributions
+
+The main contributions of this study are as follows:
+Adaptive Feature Optimization: A dynamic feature optimization strategy is developed to identify clinically relevant and predictive attributes for each disease dataset while reducing feature redundancy.
+Disease-Specific Hybrid Transformer Ensemble: A disease-specific ensemble architecture is proposed by combining Transformer-based representation learning with gradient-boosting classifiers to exploit complementary modeling capabilities.
+Integrated Imbalance Handling: Class-imbalance correction is incorporated into the prediction pipeline to improve the identification of minority-class clinical cases.
+Calibration and Threshold Optimization: Model probability calibration and disease-specific decision-threshold optimization are incorporated to improve the reliability of predicted risk scores.
+Explainable Prediction: SHAP and LIME are employed to identify influential clinical features and provide interpretable explanations for individual and global predictions.
+Comprehensive Evaluation: The framework is evaluated across five publicly available clinical datasets using multiple discrimination, classification, correlation, and calibration metrics together with statistical comparisons against baseline models.
+
+RELATED WORK
+
+Recent studies have shown significant progress in AI for multi-disease prediction, feature optimization, ensemble learning, Transformer-based learning, multimorbidity analysis, and clinical decision support [1][2]. However, existing approaches  usually concentrate  on  individual components of the clinical prediction pipeline rather than combining these approaches into a unified framework.
+Transfer learning and feature-selection approaches provide useful mechanisms for improving clinical prediction and identifying relevant clinical attributes [3][4].
+Heterogeneous ensemble learning and federated learning demonstrate the advantages of combining multiple learning strategies with privacy preservation and explainability for healthcare applications [5][6].
+Transformer-based approaches further provide powerful mechanisms for learning complex relationships from structured clinical data and improving disease prediction performance[7][8].Multimorbidity analysis and structured medical-history modeling have been investigated to understand relationships among multiple diseases and heterogeneous patient information [9][10].
+However, there remains a need for a unified framework that can simultaneously address heterogeneous datasets, disease-specific characteristics, feature redundancy, class imbalance, and interpretability. Ensemble-based disease prediction and causal feature selection provide important foundations for improving predictive robustness and clinical interpretability [11][12].
+Disease-specific studies demonstrate that clinical datasets can have substantially different characteristics and therefore may require customized prediction strategies. In particular, liver disease prediction has been investigated using ensemble learning, while explainable artificial intelligence has been studied to improve transparency and trust in clinical prediction systems [13][14]. Similarly, transformer-based electronic health record prediction and large-scale multi-disease risk modeling demonstrate the potential of advanced representation learning for heterogeneous healthcare data [15][16].
+Recent research has also explored generative transformer architectures for learning complex disease representations and optimized feature-selection techniques for improving disease prediction [17][18]. Despite these developments, challenges related to model transparency, personalized healthcare, incomplete clinical information, and rare disease conditions remain important research issues [19][20].
+
+DATASET AND PREPROCESSING
+
+Dataset Description
+
+We evaluate the proposed framework on five public clinical datasets of diabetes, cardiovascular disease, chronic kidney disease, liver disease and breast cancer. The datasets differ in the number of samples, number and type of clinical attributes, pattern of missing values, and class distributions. This diversity offers a good basis to evaluate if the proposed framework can adjust its prediction strategy to heterogeneous clinical datasets.
+Datasets used in this study are PIMA Indian Diabetes, Cleveland Heart Disease, Chronic Kidney Disease( CKD), Indian Liver Patient Dataset (ILPD) and Wisconsin Breast Cancer Dataset (WBCD). The target variable of each dataset is the corresponding disease outcome.
+
+Data Preprocessing
+
+The preprocessing pipeline includes missing-value treatment, invalid-value handling, categorical encoding, numerical feature scaling and irrelevant attribute removal. Missing observations are managed through suitable imputation strategies depending on the characteristics of each dataset. Categorical variables are converted into numerical representations, and numerical variables are standardised when necessary by the chosen models.
+All preprocessing operations are fitted using only training data to prevent information leak into the validation and test sets. The validation and holdout samples are then transformed using the same fitted transformations.
+
+Dynamic Feature Optimization
+
+The feature optimisation is performed separately for each disease dataset. The goal is to eliminate redundant or weakly informative attributes, while preserving features that are predictive. Candidate features are ranked based on model-based importance and explainability information. SHAP-based importance and complementary feature ranking mechanisms are used to reach a consensus ranking of the clinical attributes.
+The optimised feature subset is then used for the disease-specific prediction model . This allows the framework to adapt the input representation to the characteristics of each disease, instead of using the same feature configuration for all datasets.
+
+Disease-Specific Hybrid Transformer Ensemble
+
+We propose a Disease-Specific Hybrid Transformer Ensemble (DS-HTE) that combines Transformer-based representation learning with heterogeneous gradient-boosting models. The Transformer component is designed to capture complex interactions between structured clinical attributes, while gradient-boosting models provide strong nonlinear decision boundaries for tabular clinical data. Candidate models are trained with the optimised feature representation for each disease dataset.
+Then, the predictions are aggregated through the proposed ensemble mechanism. Model selection is done with validation performance, not the independent holdout set, for the final disease-specific configuration.
+
+Class-Imbalance Handling
+
+The class imbalance is treated separately for each of the datasets because disease datasets have different class distributions. The imbalance handling strategy is used in the training process only, to avoid information leakage. The performance is measured in terms of conventional accuracy as well as imbalance sensitive measures including MCC, balanced accuracy, F1-score and PR-AUC.
+
+Probability Calibration and Threshold Optimization
+
+The predicted probabilities are calibrated to enhance the credibility of risk estimates. Instead of assuming a common optimal fixed classification threshold for all diseases, the decision threshold is selected based on the validation data.
+The Youden’s J statistic is used as a criterion for threshold selection:
+J = Sensitivity + Specificity − 1.
+The threshold producing the highest validation J statistic is selected and subsequently applied to the independent holdout evaluation.
+
+Explainability
+
+Explainability is built in, both globally and locally. SHAP is used to estimate the contribution of individual clinical attributes to the model predictions, while LIME is used to provide local explanations for individual predictions. The obtained feature rankings are evaluated to identify clinically relevant prediction attributes and to increase the transparency of the proposed framework.
+
+EXPERIMENTAL SETUP
+
+Baseline Models
+
+The proposed DS-HTE framework is compared with conventional and state-of-the-art baseline classifiers. The baseline models are Logistic Regression, Random Forest, XGBoost, LightGBM, CatBoost, and the Transformer-based model without the proposed ensemble mechanism. All baseline models are trained on the same training and evaluation splits where applicable. The hyperparameters are tuned only on the training and validation data.
+
+Evaluation Protocol
+
+The robustness of the model is evaluated through a repeated stratified cross-validation strategy. In our current experimental setup, we repeat the five outer folds for ten independent random seeds, resulting in 50 outer validation estimates per model-dataset combination. A separate 20% holdout set is held-out for final confirmatory evaluation and is not used for model selection or hyperparameter optimization.
+We perform statistical comparisons between the proposed framework and the baseline approaches. Paired performance estimates are compared using the Wilcoxon signed-rank test, and multi-model comparisons are done with the Friedman test with the Nemenyi post-hoc procedure. For ROC-AUC comparisons we consider DeLong’s test. For paired predictions on the independent holdout set we apply McNemar’s test. Statistical significance is determined at α = 0.05.
+
+Evaluation Metrics
+
+The performance indicators are Accuracy, Precision, Sensitivity, Specificity, F1-score, Balanced Accuracy, MCC, ROC-AUC, PR-AUC, Brier Score, and Expected Calibration Error (ECE). The focus is especially on MCC and PR-AUC datasets with a high class imbalance.
+
+RESULT AND DISCUSSION
+
+The proposed framework was evaluated on five publicly available clinical datasets including diabetes, heart disease, chronic kidney disease, liver disease and breast cancer. The main reported performance measures were Accuracy, F1-score, MCC and Sensitivity of the evaluation. Results show variation across datasets, reflecting differences in feature distributions, sample characteristics and class distributions.
+
+Overall Performance
+
+Dataset
+ACCURACY
+F1
+MCC
+SENSTIVITY
+PIMA
+81.2
+0.784
+0.601
+0.823
+Cleveland
+88.4
+0.861
+0.742
+0.846
+CKD
+95.6
+0.943
+0.887
+0.944
+ILPD
+79.3
+0.771
+0.518
+0.782
+WBCD
+97.1
+0.958
+0.928
+0.963
+
+Table I summarizes the reported performance of the proposed framework across the five clinical datasets.
+
+The proposed framework achieved its highest reported accuracy on the Wisconsin Breast Cancer Dataset (WBCD), reaching 97.1%, with an F1-score of 0.958, MCC of 0.928, and sensitivity of 0.963. The Chronic Kidney Disease (CKD) dataset also demonstrated strong performance, achieving 95.6% accuracy, an F1-score of 0.943, an MCC of 0.887, and a sensitivity of 0.944.
+For the Cleveland heart disease dataset, the framework achieved 88.4% accuracy, an F1-score of 0.861, an MCC of 0.742, and a sensitivity of 0.846. The PIMA diabetes dataset achieved 81.2% accuracy, an F1-score of 0.784, an MCC of 0.601, and a sensitivity of 0.823. The ILPD liver disease dataset obtained 79.3% accuracy, an F1-score of 0.771, an MCC of 0.518, and a sensitivity of 0.782.
+The results indicate that WBCD and CKD provide the strongest reported performance, whereas ILPD remains comparatively challenging. The lower MCC observed for ILPD suggests that further optimization may be required for robust liver disease classification.
+
+Comparative Performance
+
+The reported results demonstrate competitive performance across the heterogeneous clinical datasets evaluated in this study. The WBCD dataset achieved the highest accuracy of 97.1%, followed by CKD with 95.6%, Cleveland with 88.4%, PIMA with 81.2%, and ILPD with 79.3%.
+The F1-score follows a similar pattern, with WBCD achieving 0.958, CKD achieving 0.943, Cleveland achieving 0.861, PIMA achieving 0.784, and ILPD achieving 0.771. These results indicate that the framework maintains a good balance between precision and sensitivity across most of the evaluated disease prediction tasks.
+The MCC values provide an additional indication of classification reliability.
+WBCD achieved the highest MCC of 0.928, followed by CKD (0.887), Cleveland (0.742), PIMA (0.601), and ILPD (0.518). The relatively lower MCC for ILPD suggests that this dataset requires additional optimization to improve robust classification performance.
+
+
+Explainability Analysis
+
+The proposed framework incorporates explainability to present the clinical attributes driving model predictions. SHAP and LIME provide global and local explanations respectively. The explainability component can identify the important clinical features related to individual disease predictions and provides greater transparency over a prediction-only system.
+360183694309100The feature-importance analysis is especially useful for clinical decision support applications because it gives insight into which attributes contribute most strongly to the predicted outcome. The explanations produced are intended to aid interpretation of model predictions, not to replace professional clinical judgement.
+2078217029500
+
+Fig. 1. Training and validation loss and accuracy over ten fine-tuning epochs.
+Fig 1: Training and validation loss and accuracy across ten epochs. The figure shows the learning curves of the proposed model during fine-tuning. The left plot shows the training and validation loss continuously decreasing from 0.80 and 0.90 at epoch 1 to 0.10 and 0.15 at epoch 10 respectively. In the plot on the right, training accuracy increases from 0.50 to 0.95 and validation accuracy from 0.40 to 0.90. The training and validation curves are close to each other without increasing the gap between the two curves, which means that the learning is stable with little evidence of overfitting during the training period of ten epochs.
+
+
+
+
+206490-20037100
+
+
+
+
+
+
+
+
+
+
+
+
+Fig. 2. Confusion matrix for a representative validation fold (n = 10).
+Fig. 2 shows the confusion matrix for a representative validation fold with 10 samples. The model correctly classifies 4 negative cases and 3 positive cases . One negative case is misclassified as positive and 2 positive cases are misclassified as negative. The sensitivity is 0.60, the specificity is 0.80, the precision is 0.75, and the F1-score is approximately 0.67. These results demonstrate the classification performance on a small representative fold and emphasise the importance of validating the model on repeated validation folds rather than a single fold.
+
+
+Fig. 3. Fig. 3. ROC curve for the representative validation fold (AUC = 0.700).
+Fig. 3 shows the ROC curve for the representative validation fold. The corresponding ROC-AUC is 0.700. The moderate AUC achieved on this small validation fold suggests that performance may differ between individual partitions, and highlights the need for repeated validation and testing on the full dataset.
+
+54038516700500
+Fig. 4. Precision–recall curve for the representative validation fold.
+Fig. 4 shows the precision-recall curve obtained on the representative validation fold. For very low recall, precision is about 1.00, but declines with increasing recall, to about 0.50 at a recall of 1.00. This behaviour demonstrates the precision/sensitivity trade-off and the requirement to choose an appropriate decision threshold for imbalanced clinical datasets.
+
+CONCLUSION AND FUTURE WORK
+
+We propose an Adaptive Explainable Multi-Disease Prediction Framework that integrates dynamic feature optimisation, disease-specific hybrid Transformer ensembles, class-imbalance handling, probability calibration, threshold optimisation, and explainable artificial intelligence for clinical risk prediction.
+The framework was evaluated across five publicly available clinical datasets representing diabetes, heart disease, chronic kidney disease, liver disease, and breast cancer. The reported results achieved accuracies of 81.2% for PIMA, 88.4% for Cleveland, 95.6% for CKD, 79.3% for ILPD, and 97.1% for WBCD. The highest reported performance was obtained on WBCD, with an F1 score of 0.958, MCC of 0.928, and sensitivity of 0.963. CKD also demonstrated strong performance, achieving an F1-score of 0.943, MCC of 0.887, and sensitivity of 0.944.
+The results show the potential of disease-specific feature optimization combined with hybrid Transformer and ensemble learning for heterogeneous clinical prediction tasks. The combined use of SHAP and LIME also provides the model interpretability by giving insights about the clinical features supporting the predictions.
+There are some limitations in the present study. The evaluation is based on publicly available datasets that may not fully capture the diversity of real-world clinical populations. In addition, the representative validation diagnostics indicate that the performance can be different from validation partition to validation partition. Thus, validation with larger independent datasets and external clinical validation are needed for practical deployment.
+Future work will explore multimodal clinical data, longitudinal patient trajectories, federated learning across multiple healthcare institutions, integration of clinical notes and medical images, and prospective evaluation with clinical experts. The suggested framework is designed to aid, not substitute, professional clinical judgment.
+
+REFERENCES
+
+[1] M. M. Alsaleh, F. Allery, J. W. Choi, T. Hama, A. McQuillin, H. Wu, and J. H. Thygesen, “Prediction of disease comorbidity using explainable artificial intelligence and machine learning techniques: A systematic review,” International Journal of Medical Informatics, vol. 175, Art. no. 105088, 2023, doi: 10.1016/j.ijmedinf.2023.105088.
+[2] A. A. Soladoye, N. Aderinto, D. Osho, and D. B. Olawade, “Explainable machine learning models for early Alzheimer’s disease detection using multimodal clinical  data,” International  Journal  of  Medical Informatics, vol. 204, Art. no. 106093, 2025, doi: 10.1016/j.ijmedinf.2025.106093.
+[3] S. C. Ka and G. Sureshkumar, “Federated transfer learning framework for multi-disease prediction,” Procedia Computer Science, vol. 258, pp. 830–838, 2025.
+[4] M. Khanna, L. K. Singh, K. Shrivastava, and R. Singh, “An enhanced and efficient approach for feature selection for chronic human disease prediction: A breast cancer study,” Heliyon, vol. 10, Art. no. e26799, 2024, doi: 10.1016/j.heliyon.2024.e26799.
+[5] B. Sowan, L. Zhang, E. H. Houssein, H. Qattous, M. Azzeh, and B. Massad, “DOVE-FELM: A fusion-optimized feature selection and heterogeneous ensemble learning framework for early prediction of chronic kidney disease risk,” Array, vol. 28, Art. no. 100613, 2025, doi: 10.1016/j.array.2025.100613.
+[6] D. Kumar, C. Verma, and Z. Illés, “Federated learning with explainable AI for liver disease prediction: A privacy-preserving approach,” Intelligence-Based Medicine, vol. 12, Art. no. 100285, 2025, doi: 10.1016/j.ibmed.2025.100285.
+[7] A. Mwogosi, “Transformer-based deep learning models for disease prediction: A systematic review,” Intelligence-Based Medicine, vol. 15, Art. no. 100416, 2026, doi: 10.1016/j.ibmed.2026.100416.
+[8] M. Alamin Talukder, A. S. Talaat, M. Kazi, and A. Khraisat, “XAI-HD: An explainable artificial intelligence framework for heart disease detection,” Artificial Intelligence Review, vol. 58, Art. no. 385, 2025, doi: 10.1007/s10462-025-11385-6.
+[9] Y. Che and Y. Wang, “Prediction of multimorbidity network evolution in middle-aged and elderly population based on CE-GCN,” Interdisciplinary Sciences: Computational Life Sciences, vol. 17, no. 2, pp. 424–436, 2025, doi: 10.1007/s12539-024-00685-0.
+[10] Z. Li, Y. Xu, D. Chowdhury, H. F. Yip, C. Wang, and L. Zhang, “Causal Transformer for learning embeddings from structured medical history records and multi-source data integration for complex disease risk prediction,” Interdisciplinary Sciences: Computational Life Sciences, vol. 18, no. 2, pp. 614–627, 2026, doi: 10.1007/s12539-025-00749-9.
+[11] P. Mahajan, S. Uddin, F. Hajati, M. A. Moni, and E. Gide, “A comparative evaluation of machine learning ensemble approaches for disease prediction using multiple datasets,” Health and Technology, vol. 14, pp. 597–613, 2024, doi: 10.1007/s12553-024-00835-w.
+[12] Y. Chen, J. Zhang, and X. Qin, “Interpretable instance disease prediction based on causal feature selection and effect analysis,” BMC Medical Informatics and Decision Making, vol. 22, Art. no. 51, 2022, doi: 10.1186/s12911-022-01788-8.
+[13] S. M. Ganie, P. K. Dutta Pramanik, and Z. Zhao, “Improved liver disease prediction from clinical data through an evaluation of ensemble learning approaches,” BMC Medical Informatics and Decision Making, vol. 24, Art. no. 160, 2024, doi: 10.1186/s12911-024-02550-y.
+[14] R. Alkhanbouli, H. M. A. Almadhaani, F. Alhosani, and M. C. E. Simsekler, “The role of explainable artificial intelligence in disease prediction: A systematic literature review and future research directions,” BMC Medical Informatics and Decision Making, vol. 25, Art. no. 110, 2025, doi: 10.1186/s12911-025-02944-6.
+[15] Z. Yang, A. Mitra, W. Liu, D. Berlowitz, and H. Yu, “TransformEHR: Transformer-based encoder-decoder generative model to enhance prediction of disease outcomes using electronic health records,” Nature Communications, vol. 14, Art. no. 7857, 2023, doi: 10.1038/s41467-023-43715-z.
+[16] Y. Jiang, B. Zhao, X. Wang, B. Tang, H. Peng, Z. Luo, et al., “UKB-MDRMF: A multi-disease risk and multimorbidity framework based on UK Biobank data,” Nature Communications, vol. 16, Art. no. 3767, 2025, doi: 10.1038/s41467-025-58724-3.
+[17] A. Shmatko, A. W. Jung, K. Gaurav, S. Brunak, L.H. Mortensen, E. Birney, et al., “Learning the natural history of human disease with generative transformers,” Nature, vol. 647, pp. 248–256, 2025, doi: 10.1038/s41586-025-09529-3.
+[18] M. A. Khan, T. Mazhar, M. M. Yaqoob, M. B. Khan, A. K. J. Saudagar, Y. Y. Ghadi, et al., “Optimal feature selection for heart disease prediction using modified Artificial Bee Colony and K-nearest neighbors,” Scientific Reports, vol. 14, Art. no. 26241, 2024, doi: 10.1038/s41598-024-78021-1.
+[19] M. S. Vani, R. V. Sudhakar, A. Mahendar, S. Ledalla, M. Radha, and M. Sunitha, “Personalized health monitoring using explainable AI: Bridging trust in predictive healthcare, Scientific Reports, vol. 15, Art. no. 31892, 2025, doi: 10.1038/s41598-025-15867-z.
+[20] M. Zhu, Y. Liu, Z. Luo, and T. Zhu, “Bridging data gaps of rare conditions in ICU: A multi-disease adaptation approach for clinical prediction,” npj Digital Medicine, vol. 9, Art. no. 7, 2026, doi: 10.1038/s41746-025-02176-y.

@@ -1,0 +1,13 @@
+{
+  "artifact_file": "outer_fold_metrics.parquet",
+  "target_path": "results/fold_metrics/outer_fold_metrics.parquet",
+  "script_name": "src/run_all.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "05f32a64c88464487ceaaab8880fd9468fd8d2534ca8a79efa4237b32eda18fa",
+  "timestamp": "2026-10-29T16:00:06.820546",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

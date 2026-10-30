@@ -1,0 +1,314 @@
+{
+    "diabetes": {
+        "dataset_name": "PIMA Indian Diabetes",
+        "shape": [
+            768,
+            9
+        ],
+        "missingness": {
+            "total_missing_cells": 0,
+            "percentage_missing": 0.0,
+            "missing_by_feature": {
+                "Pregnancies": 0,
+                "Glucose": 0,
+                "BloodPressure": 0,
+                "SkinThickness": 0,
+                "Insulin": 0,
+                "BMI": 0,
+                "DiabetesPedigreeFunction": 0,
+                "Age": 0,
+                "Outcome": 0
+            }
+        },
+        "duplicates": 0,
+        "constant_features": [],
+        "outliers": {
+            "method": "IsolationForest (contamination=0.05)",
+            "outlier_count": 39
+        },
+        "class_distribution": {
+            "positive_class_count": 268,
+            "negative_class_count": 500,
+            "positive_prevalence": 0.3489583333333333
+        },
+        "feature_metadata": {
+            "Pregnancies": "int64",
+            "Glucose": "int64",
+            "BloodPressure": "int64",
+            "SkinThickness": "int64",
+            "Insulin": "int64",
+            "BMI": "float64",
+            "DiabetesPedigreeFunction": "float64",
+            "Age": "int64",
+            "Outcome": "int64"
+        }
+    },
+    "heart": {
+        "dataset_name": "Cleveland Heart Disease",
+        "shape": [
+            303,
+            14
+        ],
+        "missingness": {
+            "total_missing_cells": 6,
+            "percentage_missing": 0.14144271570014144,
+            "missing_by_feature": {
+                "age": 0,
+                "sex": 0,
+                "cp": 0,
+                "trestbps": 0,
+                "chol": 0,
+                "fbs": 0,
+                "restecg": 0,
+                "thalach": 0,
+                "exang": 0,
+                "oldpeak": 0,
+                "slope": 0,
+                "ca": 4,
+                "thal": 2,
+                "target": 0
+            }
+        },
+        "duplicates": 0,
+        "constant_features": [],
+        "outliers": {
+            "method": "IsolationForest (contamination=0.05)",
+            "outlier_count": 16
+        },
+        "class_distribution": {
+            "positive_class_count": 139,
+            "negative_class_count": 164,
+            "positive_prevalence": 0.45874587458745875
+        },
+        "feature_metadata": {
+            "age": "float64",
+            "sex": "float64",
+            "cp": "float64",
+            "trestbps": "float64",
+            "chol": "float64",
+            "fbs": "float64",
+            "restecg": "float64",
+            "thalach": "float64",
+            "exang": "float64",
+            "oldpeak": "float64",
+            "slope": "float64",
+            "ca": "float64",
+            "thal": "float64",
+            "target": "int64"
+        }
+    },
+    "kidney": {
+        "dataset_name": "Chronic Kidney Disease",
+        "shape": [
+            400,
+            25
+        ],
+        "missingness": {
+            "total_missing_cells": 1012,
+            "percentage_missing": 10.12,
+            "missing_by_feature": {
+                "age": 9,
+                "bp": 12,
+                "sg": 47,
+                "al": 46,
+                "su": 49,
+                "rbc": 152,
+                "pc": 65,
+                "pcc": 4,
+                "ba": 4,
+                "bgr": 44,
+                "bu": 19,
+                "sc": 17,
+                "sod": 87,
+                "pot": 88,
+                "hemo": 52,
+                "pcv": 71,
+                "wc": 106,
+                "rc": 131,
+                "htn": 2,
+                "dm": 2,
+                "cad": 2,
+                "appet": 1,
+                "pe": 1,
+                "ane": 1,
+                "classification": 0
+            }
+        },
+        "duplicates": 0,
+        "constant_features": [],
+        "outliers": {
+            "method": "IsolationForest (contamination=0.05)",
+            "outlier_count": 20
+        },
+        "class_distribution": {
+            "positive_class_count": 250,
+            "negative_class_count": 150,
+            "positive_prevalence": 0.625
+        },
+        "feature_metadata": {
+            "age": "float64",
+            "bp": "float64",
+            "sg": "float64",
+            "al": "float64",
+            "su": "float64",
+            "rbc": "str",
+            "pc": "str",
+            "pcc": "str",
+            "ba": "str",
+            "bgr": "float64",
+            "bu": "float64",
+            "sc": "float64",
+            "sod": "float64",
+            "pot": "float64",
+            "hemo": "float64",
+            "pcv": "float64",
+            "wc": "float64",
+            "rc": "float64",
+            "htn": "str",
+            "dm": "str",
+            "cad": "str",
+            "appet": "str",
+            "pe": "str",
+            "ane": "str",
+            "classification": "str"
+        }
+    },
+    "liver": {
+        "dataset_name": "Indian Liver Patient Dataset (ILPD)",
+        "shape": [
+            583,
+            11
+        ],
+        "missingness": {
+            "total_missing_cells": 4,
+            "percentage_missing": 0.06237330422579136,
+            "missing_by_feature": {
+                "Age": 0,
+                "Gender": 0,
+                "Total_Bilirubin": 0,
+                "Direct_Bilirubin": 0,
+                "Alkaline_Phosphotase": 0,
+                "Alamine_Aminotransferase": 0,
+                "Aspartate_Aminotransferase": 0,
+                "Total_Protiens": 0,
+                "Albumin": 0,
+                "Albumin_and_Globulin_Ratio": 4,
+                "Dataset": 0
+            }
+        },
+        "duplicates": 13,
+        "constant_features": [],
+        "outliers": {
+            "method": "IsolationForest (contamination=0.05)",
+            "outlier_count": 30
+        },
+        "class_distribution": {
+            "positive_class_count": 416,
+            "negative_class_count": 167,
+            "positive_prevalence": 0.7135506003430532
+        },
+        "feature_metadata": {
+            "Age": "int64",
+            "Gender": "str",
+            "Total_Bilirubin": "float64",
+            "Direct_Bilirubin": "float64",
+            "Alkaline_Phosphotase": "int64",
+            "Alamine_Aminotransferase": "int64",
+            "Aspartate_Aminotransferase": "int64",
+            "Total_Protiens": "float64",
+            "Albumin": "float64",
+            "Albumin_and_Globulin_Ratio": "float64",
+            "Dataset": "int64"
+        }
+    },
+    "cancer": {
+        "dataset_name": "Wisconsin Breast Cancer Diagnostic (WBCD)",
+        "shape": [
+            569,
+            32
+        ],
+        "missingness": {
+            "total_missing_cells": 0,
+            "percentage_missing": 0.0,
+            "missing_by_feature": {
+                "id": 0,
+                "diagnosis": 0,
+                "radius_mean": 0,
+                "texture_mean": 0,
+                "perimeter_mean": 0,
+                "area_mean": 0,
+                "smoothness_mean": 0,
+                "compactness_mean": 0,
+                "concavity_mean": 0,
+                "concave_points_mean": 0,
+                "symmetry_mean": 0,
+                "fractal_dimension_mean": 0,
+                "radius_se": 0,
+                "texture_se": 0,
+                "perimeter_se": 0,
+                "area_se": 0,
+                "smoothness_se": 0,
+                "compactness_se": 0,
+                "concavity_se": 0,
+                "concave_points_se": 0,
+                "symmetry_se": 0,
+                "fractal_dimension_se": 0,
+                "radius_worst": 0,
+                "texture_worst": 0,
+                "perimeter_worst": 0,
+                "area_worst": 0,
+                "smoothness_worst": 0,
+                "compactness_worst": 0,
+                "concavity_worst": 0,
+                "concave_points_worst": 0,
+                "symmetry_worst": 0,
+                "fractal_dimension_worst": 0
+            }
+        },
+        "duplicates": 0,
+        "constant_features": [],
+        "outliers": {
+            "method": "IsolationForest (contamination=0.05)",
+            "outlier_count": 29
+        },
+        "class_distribution": {
+            "positive_class_count": 212,
+            "negative_class_count": 357,
+            "positive_prevalence": 0.37258347978910367
+        },
+        "feature_metadata": {
+            "id": "int64",
+            "diagnosis": "str",
+            "radius_mean": "float64",
+            "texture_mean": "float64",
+            "perimeter_mean": "float64",
+            "area_mean": "float64",
+            "smoothness_mean": "float64",
+            "compactness_mean": "float64",
+            "concavity_mean": "float64",
+            "concave_points_mean": "float64",
+            "symmetry_mean": "float64",
+            "fractal_dimension_mean": "float64",
+            "radius_se": "float64",
+            "texture_se": "float64",
+            "perimeter_se": "float64",
+            "area_se": "float64",
+            "smoothness_se": "float64",
+            "compactness_se": "float64",
+            "concavity_se": "float64",
+            "concave_points_se": "float64",
+            "symmetry_se": "float64",
+            "fractal_dimension_se": "float64",
+            "radius_worst": "float64",
+            "texture_worst": "float64",
+            "perimeter_worst": "float64",
+            "area_worst": "float64",
+            "smoothness_worst": "float64",
+            "compactness_worst": "float64",
+            "concavity_worst": "float64",
+            "concave_points_worst": "float64",
+            "symmetry_worst": "float64",
+            "fractal_dimension_worst": "float64"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "artifact_file": "image_benchmarks_breastmnist.json",
+  "target_path": "results/tables/image_benchmarks_breastmnist.json",
+  "script_name": "src/reporting/tables.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "2f91f25d2cafdb7c13edeca2e1a4ab37c64f39ce655899ddecfda624da20d009",
+  "timestamp": "2026-10-29T16:00:07.377599",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

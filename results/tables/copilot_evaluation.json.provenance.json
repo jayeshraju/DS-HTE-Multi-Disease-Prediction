@@ -1,0 +1,11 @@
+{
+  "artifact_file": "copilot_evaluation.json",
+  "target_path": "results/tables/copilot_evaluation.json",
+  "script_name": "src/copilot/eval.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "ce4d5c6b2d22a3ef4435b90e56c3fd4c60e7c124f8c3d7b0b18224252e95e3f8",
+  "timestamp": "2026-10-30T11:06:48.744738",
+  "input_file_hashes": {}
+}

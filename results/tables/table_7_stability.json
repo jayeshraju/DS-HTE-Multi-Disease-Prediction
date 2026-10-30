@@ -1,0 +1,13 @@
+{
+  "table_name": "table_7_stability",
+  "title": "Table VII: Dynamic Feature Optimization Stability (Consolidated Jaccard & Kuncheva)",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "row_count": 5,
+  "columns": [
+    "Dataset",
+    "Mean Jaccard Stability",
+    "Mean Kuncheva Index",
+    "Most Frequently Selected Features"
+  ]
+}

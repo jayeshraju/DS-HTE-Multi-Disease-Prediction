@@ -1,0 +1,776 @@
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "PIMA", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "Cleveland", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "Cleveland"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "CKD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "CKD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "ILPD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "WBCD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "get_ablation", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "WBCD"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_stats", "args": {"cohort": "PIMA"}, "status": "success", "error": null}
+{"tool": "get_metrics", "args": {"cohort": "ILPD", "operating_point": "balanced"}, "status": "success", "error": null}
+{"tool": "compare_models", "args": {"cohort": "ILPD"}, "status": "success", "error": null}

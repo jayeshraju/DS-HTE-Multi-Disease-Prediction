@@ -1,0 +1,13 @@
+{
+  "artifact_file": "fig_4_pr_curves.png",
+  "target_path": "results/figures/fig_4_pr_curves.png",
+  "script_name": "src/reporting/figures.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "acf854ec7d737a2af062390b8564b9357065773c3c39b4b2931e16e4cccb4558",
+  "timestamp": "2026-10-29T16:00:06.647908",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

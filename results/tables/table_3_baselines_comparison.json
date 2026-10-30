@@ -1,0 +1,19 @@
+{
+  "table_name": "table_3_baselines_comparison",
+  "title": "Table III: DS-HTE vs Baseline Classifiers Across Clinical Cohorts (with Trivial Baselines)",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "row_count": 55,
+  "columns": [
+    "Dataset",
+    "Model",
+    "Accuracy (%)",
+    "F1",
+    "MCC",
+    "Balanced Acc",
+    "ROC-AUC",
+    "Brier",
+    "ECE",
+    "Majority Rate (%)"
+  ]
+}

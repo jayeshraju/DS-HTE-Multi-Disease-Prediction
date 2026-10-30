@@ -1,0 +1,16 @@
+{
+  "table_name": "table_9_error_profile",
+  "title": "Table IX: Clinical Subgroup Error Profiling (Evaluated only where N >= 30)",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "row_count": 236,
+  "columns": [
+    "Dataset",
+    "Feature",
+    "Subgroup",
+    "Size (N)",
+    "Status",
+    "False Negative Rate",
+    "Wilson 95% CI"
+  ]
+}

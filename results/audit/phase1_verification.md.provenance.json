@@ -1,0 +1,11 @@
+{
+  "artifact_file": "phase1_verification.md",
+  "target_path": "results/audit/phase1_verification.md",
+  "script_name": "scripts/verify_phase1.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "2f7f7b30b7753c2651c1a895bdaa766f3e683699dc929e2b4847b883382dd1fd",
+  "timestamp": "2026-10-29T16:00:40.674423",
+  "input_file_hashes": {}
+}

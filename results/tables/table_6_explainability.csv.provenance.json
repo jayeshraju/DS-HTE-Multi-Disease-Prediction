@@ -1,0 +1,13 @@
+{
+  "artifact_file": "table_6_explainability.csv",
+  "target_path": "results/tables/table_6_explainability.csv",
+  "script_name": "src/reporting/tables.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "d691a99ae69cda75120d99a39774430a5f8e7a37103b453e70feb7ae0c97ea5e",
+  "timestamp": "2026-10-29T16:00:08.368471",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

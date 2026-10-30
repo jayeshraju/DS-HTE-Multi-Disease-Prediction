@@ -1,0 +1,102 @@
+{
+    "diabetes": {
+        "name": "PIMA Indian Diabetes",
+        "samples": 768,
+        "features": 8,
+        "target_column": "Outcome",
+        "positive_class": 268,
+        "negative_class": 500,
+        "prevalence": 0.3489583333333333,
+        "missing_cells": 0,
+        "missing_percent": 0.0,
+        "duplicate_rows": 0,
+        "duplicate_features": 0,
+        "conflicting_duplicates": 0,
+        "constant_features": [],
+        "nzv_features": [],
+        "outliers": 39,
+        "suspicious_cols": []
+    },
+    "heart": {
+        "name": "Cleveland Heart Disease",
+        "samples": 303,
+        "features": 13,
+        "target_column": "target",
+        "positive_class": 139,
+        "negative_class": 164,
+        "prevalence": 0.45874587458745875,
+        "missing_cells": 6,
+        "missing_percent": 0.14144271570014144,
+        "duplicate_rows": 0,
+        "duplicate_features": 0,
+        "conflicting_duplicates": 0,
+        "constant_features": [],
+        "nzv_features": [],
+        "outliers": 16,
+        "suspicious_cols": []
+    },
+    "kidney": {
+        "name": "Chronic Kidney Disease",
+        "samples": 400,
+        "features": 24,
+        "target_column": "classification",
+        "positive_class": 250,
+        "negative_class": 150,
+        "prevalence": 0.625,
+        "missing_cells": 1012,
+        "missing_percent": 10.12,
+        "duplicate_rows": 0,
+        "duplicate_features": 0,
+        "conflicting_duplicates": 0,
+        "constant_features": [],
+        "nzv_features": [
+            "sg"
+        ],
+        "outliers": 20,
+        "suspicious_cols": []
+    },
+    "liver": {
+        "name": "Indian Liver Patient Dataset (ILPD)",
+        "samples": 583,
+        "features": 10,
+        "target_column": "Dataset",
+        "positive_class": 416,
+        "negative_class": 167,
+        "prevalence": 0.7135506003430532,
+        "missing_cells": 4,
+        "missing_percent": 0.06237330422579136,
+        "duplicate_rows": 13,
+        "duplicate_features": 13,
+        "conflicting_duplicates": 0,
+        "constant_features": [],
+        "nzv_features": [],
+        "outliers": 30,
+        "suspicious_cols": []
+    },
+    "cancer": {
+        "name": "Wisconsin Breast Cancer Diagnostic (WBCD)",
+        "samples": 569,
+        "features": 30,
+        "target_column": "diagnosis",
+        "positive_class": 212,
+        "negative_class": 357,
+        "prevalence": 0.37258347978910367,
+        "missing_cells": 0,
+        "missing_percent": 0.0,
+        "duplicate_rows": 0,
+        "duplicate_features": 0,
+        "conflicting_duplicates": 0,
+        "constant_features": [],
+        "nzv_features": [
+            "fractal_dimension_mean",
+            "smoothness_se",
+            "concave_points_se",
+            "symmetry_se",
+            "fractal_dimension_se"
+        ],
+        "outliers": 29,
+        "suspicious_cols": [
+            "id"
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+================================================================================
+            EXPLAINABLE CLINICAL RISK REPORT — CHRONIC KIDNEY DISEASE
+================================================================================
+Patient ID : PT-2026-001          Age / Gender : 40 Yrs / Male
+Report Date: 2026-08-07 11:57:44  Target Condition: Chronic Kidney Disease
+--------------------------------------------------------------------------------
+DIAGNOSTIC RISK STRATIFICATION
+Predicted Pathological Probability: 0.0048 (0.5%)
+Assigned Clinical Risk Tier       : TIER I - LOW RISK
+Model Prediction Confidence       : 99.0%
+Clinical Context Summary          : Biomarkers within normal boundaries.
+--------------------------------------------------------------------------------
+PATIENT LABORATORY METRICS & NORMAL RANGES
+  Biomarker                 Raw Value       Normal Range        
+  age                       40.43           N/A                 
+  bp                        78.24           N/A                 
+  bgr                       49.77           70 - 125 mg/dL      
+  bu                        3.88            7 - 20 mg/dL        
+  sc                        0.83            0.6 - 1.2 mg/dL     
+  sod                       147.20          135 - 145 mEq/L     
+  pot                       3.85            3.5 - 5.0 mEq/L     
+  hemo                      16.87           13.5 - 17.5 g/dL    
+  pcv                       54.00           38 - 50 %           
+  wc                        8301.36         4500 - 11000 /µL    
+  rc                        5.33            4.5 - 5.9 M/µL      
+  sg                        1.020           N/A                 
+  al                        0               N/A                 
+  su                        0               N/A                 
+  rbc                       normal          N/A                 
+  pc                        normal          N/A                 
+  pcc                       notpresent      N/A                 
+  ba                        notpresent      N/A                 
+  htn                       no              N/A                 
+  dm                        yes             N/A                 
+  cad                       no              N/A                 
+  appet                     good            N/A                 
+  pe                        no              N/A                 
+  ane                       no              N/A                 
+--------------------------------------------------------------------------------
+TOP BIOMARKER ATTRIBUTIONS (SHAP VALUES)
+Risk Accelerators (Pushing Risk Higher):
+Protective Factors (Lowering Risk):
+  - rc                        SHAP Attribution: -0.0820
+  - bu                        SHAP Attribution: -0.0741
+--------------------------------------------------------------------------------
+PHYSICIAN DECISION SUPPORT GUIDANCE
+  1. Continue routine preventative screening protocol.
+  2. Re-assess patient biomarker levels in 6 to 12 months.
+--------------------------------------------------------------------------------
+NOTICE: This AI decision support report is intended solely for licensed medical
+professionals. It does not replace independent clinical judgment.
+================================================================================

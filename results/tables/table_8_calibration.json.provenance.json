@@ -1,0 +1,13 @@
+{
+  "artifact_file": "table_8_calibration.json",
+  "target_path": "results/tables/table_8_calibration.json",
+  "script_name": "src/reporting/tables.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "10a335b5837aab95a1f32211ab7ffaaed21e9cc1f979b22a1bb73b055242e911",
+  "timestamp": "2026-10-29T16:00:08.574635",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

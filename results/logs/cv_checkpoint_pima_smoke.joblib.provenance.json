@@ -1,0 +1,13 @@
+{
+  "artifact_file": "cv_checkpoint_pima_smoke.joblib",
+  "target_path": "results/logs/cv_checkpoint_pima_smoke.joblib",
+  "script_name": "src/run_all.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "eb390b379af65171b016243563267a1a1810d49e012d7abcff90f0b0f0b96f56",
+  "timestamp": "2026-10-29T16:00:06.915705",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

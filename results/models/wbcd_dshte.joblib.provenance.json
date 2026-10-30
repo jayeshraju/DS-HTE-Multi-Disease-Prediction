@@ -1,0 +1,13 @@
+{
+  "artifact_file": "wbcd_dshte.joblib",
+  "target_path": "results/models/wbcd_dshte.joblib",
+  "script_name": "src/run_all.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "d65f3e2917ce176fa35d5bc5fbced49236964303e1366f809835354cfd34464e",
+  "timestamp": "2026-10-29T16:00:07.195497",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

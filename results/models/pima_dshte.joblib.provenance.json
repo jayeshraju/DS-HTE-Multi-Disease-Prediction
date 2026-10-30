@@ -1,0 +1,13 @@
+{
+  "artifact_file": "pima_dshte.joblib",
+  "target_path": "results/models/pima_dshte.joblib",
+  "script_name": "src/run_all.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "d582b15c541e4a3b91f8f2b71b46af9e9b9ba13201308e875f2d4d8628bbd85b",
+  "timestamp": "2026-10-29T16:00:07.170566",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

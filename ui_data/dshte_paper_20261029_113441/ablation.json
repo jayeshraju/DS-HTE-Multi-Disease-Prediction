@@ -1,0 +1,3072 @@
+{
+  "pima": {
+    "Full DS-HTE": {
+      "accuracy": {
+        "mean": 0.7368,
+        "std": 0.0304,
+        "ci_lower": 0.7284,
+        "ci_upper": 0.7454
+      },
+      "precision": {
+        "mean": 0.5996,
+        "std": 0.0458,
+        "ci_lower": 0.587,
+        "ci_upper": 0.6126
+      },
+      "sensitivity": {
+        "mean": 0.7766,
+        "std": 0.1111,
+        "ci_lower": 0.7504,
+        "ci_upper": 0.8064
+      },
+      "specificity": {
+        "mean": 0.7155,
+        "std": 0.0755,
+        "ci_lower": 0.6944,
+        "ci_upper": 0.7349
+      },
+      "f1": {
+        "mean": 0.6704,
+        "std": 0.0459,
+        "ci_lower": 0.6573,
+        "ci_upper": 0.6823
+      },
+      "balanced_accuracy": {
+        "mean": 0.7461,
+        "std": 0.0348,
+        "ci_lower": 0.7361,
+        "ci_upper": 0.7557
+      },
+      "mcc": {
+        "mean": 0.4769,
+        "std": 0.0612,
+        "ci_lower": 0.46,
+        "ci_upper": 0.4938
+      },
+      "roc_auc": {
+        "mean": 0.8362,
+        "std": 0.0295,
+        "ci_lower": 0.8278,
+        "ci_upper": 0.8439
+      },
+      "pr_auc": {
+        "mean": 0.7091,
+        "std": 0.0519,
+        "ci_lower": 0.6953,
+        "ci_upper": 0.7234
+      },
+      "brier": {
+        "mean": 0.1555,
+        "std": 0.0145,
+        "ci_lower": 0.1516,
+        "ci_upper": 0.1595
+      },
+      "ece": {
+        "mean": 0.0773,
+        "std": 0.0185,
+        "ci_lower": 0.0724,
+        "ci_upper": 0.0822
+      }
+    },
+    "Minus Feature Optimization": {
+      "accuracy": {
+        "mean": 0.7575,
+        "std": 0.0451,
+        "ci_lower": 0.7441,
+        "ci_upper": 0.7696
+      },
+      "precision": {
+        "mean": 0.6265,
+        "std": 0.0589,
+        "ci_lower": 0.6089,
+        "ci_upper": 0.6437
+      },
+      "sensitivity": {
+        "mean": 0.7879,
+        "std": 0.0717,
+        "ci_lower": 0.7669,
+        "ci_upper": 0.8061
+      },
+      "specificity": {
+        "mean": 0.7413,
+        "std": 0.08,
+        "ci_lower": 0.7175,
+        "ci_upper": 0.7631
+      },
+      "f1": {
+        "mean": 0.6946,
+        "std": 0.0436,
+        "ci_lower": 0.6818,
+        "ci_upper": 0.7062
+      },
+      "balanced_accuracy": {
+        "mean": 0.7646,
+        "std": 0.038,
+        "ci_lower": 0.7535,
+        "ci_upper": 0.7746
+      },
+      "mcc": {
+        "mean": 0.5123,
+        "std": 0.0728,
+        "ci_lower": 0.4912,
+        "ci_upper": 0.5316
+      },
+      "roc_auc": {
+        "mean": 0.8372,
+        "std": 0.0291,
+        "ci_lower": 0.8288,
+        "ci_upper": 0.8453
+      },
+      "pr_auc": {
+        "mean": 0.7051,
+        "std": 0.0517,
+        "ci_lower": 0.6901,
+        "ci_upper": 0.7199
+      },
+      "brier": {
+        "mean": 0.1551,
+        "std": 0.0146,
+        "ci_lower": 0.151,
+        "ci_upper": 0.1593
+      },
+      "ece": {
+        "mean": 0.0785,
+        "std": 0.022,
+        "ci_lower": 0.0731,
+        "ci_upper": 0.0848
+      }
+    },
+    "Minus Imbalance Handling": {
+      "accuracy": {
+        "mean": 0.7368,
+        "std": 0.0304,
+        "ci_lower": 0.7284,
+        "ci_upper": 0.7454
+      },
+      "precision": {
+        "mean": 0.5996,
+        "std": 0.0458,
+        "ci_lower": 0.587,
+        "ci_upper": 0.6126
+      },
+      "sensitivity": {
+        "mean": 0.7766,
+        "std": 0.1111,
+        "ci_lower": 0.7504,
+        "ci_upper": 0.8064
+      },
+      "specificity": {
+        "mean": 0.7155,
+        "std": 0.0755,
+        "ci_lower": 0.6944,
+        "ci_upper": 0.7349
+      },
+      "f1": {
+        "mean": 0.6704,
+        "std": 0.0459,
+        "ci_lower": 0.6573,
+        "ci_upper": 0.6823
+      },
+      "balanced_accuracy": {
+        "mean": 0.7461,
+        "std": 0.0348,
+        "ci_lower": 0.7361,
+        "ci_upper": 0.7557
+      },
+      "mcc": {
+        "mean": 0.4769,
+        "std": 0.0612,
+        "ci_lower": 0.46,
+        "ci_upper": 0.4938
+      },
+      "roc_auc": {
+        "mean": 0.8362,
+        "std": 0.0295,
+        "ci_lower": 0.8278,
+        "ci_upper": 0.8439
+      },
+      "pr_auc": {
+        "mean": 0.7091,
+        "std": 0.0519,
+        "ci_lower": 0.6953,
+        "ci_upper": 0.7234
+      },
+      "brier": {
+        "mean": 0.1555,
+        "std": 0.0145,
+        "ci_lower": 0.1516,
+        "ci_upper": 0.1595
+      },
+      "ece": {
+        "mean": 0.0773,
+        "std": 0.0185,
+        "ci_lower": 0.0724,
+        "ci_upper": 0.0822
+      }
+    },
+    "Minus Calibration": {
+      "accuracy": {
+        "mean": 0.7443,
+        "std": 0.029,
+        "ci_lower": 0.736,
+        "ci_upper": 0.753
+      },
+      "precision": {
+        "mean": 0.6083,
+        "std": 0.0417,
+        "ci_lower": 0.5972,
+        "ci_upper": 0.6206
+      },
+      "sensitivity": {
+        "mean": 0.772,
+        "std": 0.1,
+        "ci_lower": 0.7448,
+        "ci_upper": 0.7999
+      },
+      "specificity": {
+        "mean": 0.7295,
+        "std": 0.0639,
+        "ci_lower": 0.7118,
+        "ci_upper": 0.7498
+      },
+      "f1": {
+        "mean": 0.6761,
+        "std": 0.0419,
+        "ci_lower": 0.664,
+        "ci_upper": 0.6871
+      },
+      "balanced_accuracy": {
+        "mean": 0.7507,
+        "std": 0.0347,
+        "ci_lower": 0.7413,
+        "ci_upper": 0.7603
+      },
+      "mcc": {
+        "mean": 0.4854,
+        "std": 0.0634,
+        "ci_lower": 0.4676,
+        "ci_upper": 0.5031
+      },
+      "roc_auc": {
+        "mean": 0.8393,
+        "std": 0.0288,
+        "ci_lower": 0.8311,
+        "ci_upper": 0.8471
+      },
+      "pr_auc": {
+        "mean": 0.7403,
+        "std": 0.0543,
+        "ci_lower": 0.7254,
+        "ci_upper": 0.7554
+      },
+      "brier": {
+        "mean": 0.1545,
+        "std": 0.0137,
+        "ci_lower": 0.1505,
+        "ci_upper": 0.1585
+      },
+      "ece": {
+        "mean": 0.0857,
+        "std": 0.0188,
+        "ci_lower": 0.0802,
+        "ci_upper": 0.0916
+      }
+    },
+    "Minus Threshold Optimization": {
+      "accuracy": {
+        "mean": 0.7679,
+        "std": 0.031,
+        "ci_lower": 0.7596,
+        "ci_upper": 0.7764
+      },
+      "precision": {
+        "mean": 0.7279,
+        "std": 0.0788,
+        "ci_lower": 0.7043,
+        "ci_upper": 0.7503
+      },
+      "sensitivity": {
+        "mean": 0.5561,
+        "std": 0.0969,
+        "ci_lower": 0.5293,
+        "ci_upper": 0.5815
+      },
+      "specificity": {
+        "mean": 0.8813,
+        "std": 0.0595,
+        "ci_lower": 0.8622,
+        "ci_upper": 0.8966
+      },
+      "f1": {
+        "mean": 0.6223,
+        "std": 0.0595,
+        "ci_lower": 0.6058,
+        "ci_upper": 0.6378
+      },
+      "balanced_accuracy": {
+        "mean": 0.7187,
+        "std": 0.037,
+        "ci_lower": 0.7087,
+        "ci_upper": 0.7287
+      },
+      "mcc": {
+        "mean": 0.4747,
+        "std": 0.0709,
+        "ci_lower": 0.4554,
+        "ci_upper": 0.4951
+      },
+      "roc_auc": {
+        "mean": 0.8362,
+        "std": 0.0295,
+        "ci_lower": 0.8278,
+        "ci_upper": 0.8439
+      },
+      "pr_auc": {
+        "mean": 0.7091,
+        "std": 0.0519,
+        "ci_lower": 0.6953,
+        "ci_upper": 0.7234
+      },
+      "brier": {
+        "mean": 0.1555,
+        "std": 0.0145,
+        "ci_lower": 0.1516,
+        "ci_upper": 0.1595
+      },
+      "ece": {
+        "mean": 0.0773,
+        "std": 0.0185,
+        "ci_lower": 0.0724,
+        "ci_upper": 0.0822
+      }
+    },
+    "GBDT-Only Ensemble": {
+      "accuracy": {
+        "mean": 0.7345,
+        "std": 0.0364,
+        "ci_lower": 0.7245,
+        "ci_upper": 0.7449
+      },
+      "precision": {
+        "mean": 0.598,
+        "std": 0.0527,
+        "ci_lower": 0.5836,
+        "ci_upper": 0.6129
+      },
+      "sensitivity": {
+        "mean": 0.7776,
+        "std": 0.1067,
+        "ci_lower": 0.7514,
+        "ci_upper": 0.8067
+      },
+      "specificity": {
+        "mean": 0.7115,
+        "std": 0.0836,
+        "ci_lower": 0.6869,
+        "ci_upper": 0.7333
+      },
+      "f1": {
+        "mean": 0.6696,
+        "std": 0.0448,
+        "ci_lower": 0.657,
+        "ci_upper": 0.6817
+      },
+      "balanced_accuracy": {
+        "mean": 0.7445,
+        "std": 0.0356,
+        "ci_lower": 0.7348,
+        "ci_upper": 0.7544
+      },
+      "mcc": {
+        "mean": 0.4743,
+        "std": 0.0643,
+        "ci_lower": 0.4573,
+        "ci_upper": 0.4924
+      },
+      "roc_auc": {
+        "mean": 0.8362,
+        "std": 0.0284,
+        "ci_lower": 0.8284,
+        "ci_upper": 0.8435
+      },
+      "pr_auc": {
+        "mean": 0.7099,
+        "std": 0.0506,
+        "ci_lower": 0.6968,
+        "ci_upper": 0.7241
+      },
+      "brier": {
+        "mean": 0.1555,
+        "std": 0.0143,
+        "ci_lower": 0.1516,
+        "ci_upper": 0.1593
+      },
+      "ece": {
+        "mean": 0.0763,
+        "std": 0.0192,
+        "ci_lower": 0.0711,
+        "ci_upper": 0.0813
+      }
+    },
+    "Minus Transformer": {
+      "accuracy": {
+        "mean": 0.7345,
+        "std": 0.0364,
+        "ci_lower": 0.7245,
+        "ci_upper": 0.7449
+      },
+      "precision": {
+        "mean": 0.598,
+        "std": 0.0527,
+        "ci_lower": 0.5836,
+        "ci_upper": 0.6129
+      },
+      "sensitivity": {
+        "mean": 0.7776,
+        "std": 0.1067,
+        "ci_lower": 0.7514,
+        "ci_upper": 0.8067
+      },
+      "specificity": {
+        "mean": 0.7115,
+        "std": 0.0836,
+        "ci_lower": 0.6869,
+        "ci_upper": 0.7333
+      },
+      "f1": {
+        "mean": 0.6696,
+        "std": 0.0448,
+        "ci_lower": 0.657,
+        "ci_upper": 0.6817
+      },
+      "balanced_accuracy": {
+        "mean": 0.7445,
+        "std": 0.0356,
+        "ci_lower": 0.7348,
+        "ci_upper": 0.7544
+      },
+      "mcc": {
+        "mean": 0.4743,
+        "std": 0.0643,
+        "ci_lower": 0.4573,
+        "ci_upper": 0.4924
+      },
+      "roc_auc": {
+        "mean": 0.8362,
+        "std": 0.0284,
+        "ci_lower": 0.8284,
+        "ci_upper": 0.8435
+      },
+      "pr_auc": {
+        "mean": 0.7099,
+        "std": 0.0506,
+        "ci_lower": 0.6968,
+        "ci_upper": 0.7241
+      },
+      "brier": {
+        "mean": 0.1555,
+        "std": 0.0143,
+        "ci_lower": 0.1516,
+        "ci_upper": 0.1593
+      },
+      "ece": {
+        "mean": 0.0763,
+        "std": 0.0192,
+        "ci_lower": 0.0711,
+        "ci_upper": 0.0813
+      }
+    },
+    "LR-Only": {
+      "accuracy": {
+        "mean": 0.7373,
+        "std": 0.0414,
+        "ci_lower": 0.7257,
+        "ci_upper": 0.7476
+      },
+      "precision": {
+        "mean": 0.6069,
+        "std": 0.0651,
+        "ci_lower": 0.589,
+        "ci_upper": 0.6244
+      },
+      "sensitivity": {
+        "mean": 0.7735,
+        "std": 0.1073,
+        "ci_lower": 0.743,
+        "ci_upper": 0.8004
+      },
+      "specificity": {
+        "mean": 0.718,
+        "std": 0.1006,
+        "ci_lower": 0.6906,
+        "ci_upper": 0.7465
+      },
+      "f1": {
+        "mean": 0.6716,
+        "std": 0.0374,
+        "ci_lower": 0.6604,
+        "ci_upper": 0.6821
+      },
+      "balanced_accuracy": {
+        "mean": 0.7457,
+        "std": 0.0321,
+        "ci_lower": 0.7363,
+        "ci_upper": 0.7545
+      },
+      "mcc": {
+        "mean": 0.4797,
+        "std": 0.0584,
+        "ci_lower": 0.4625,
+        "ci_upper": 0.4946
+      },
+      "roc_auc": {
+        "mean": 0.836,
+        "std": 0.0277,
+        "ci_lower": 0.828,
+        "ci_upper": 0.8436
+      },
+      "pr_auc": {
+        "mean": 0.7025,
+        "std": 0.05,
+        "ci_lower": 0.6883,
+        "ci_upper": 0.7164
+      },
+      "brier": {
+        "mean": 0.1559,
+        "std": 0.0134,
+        "ci_lower": 0.152,
+        "ci_upper": 0.1597
+      },
+      "ece": {
+        "mean": 0.0738,
+        "std": 0.0237,
+        "ci_lower": 0.0675,
+        "ci_upper": 0.0803
+      }
+    },
+    "Transformer-Only": {
+      "accuracy": {
+        "mean": 0.7278,
+        "std": 0.0331,
+        "ci_lower": 0.7193,
+        "ci_upper": 0.7368
+      },
+      "precision": {
+        "mean": 0.6504,
+        "std": 0.1398,
+        "ci_lower": 0.6074,
+        "ci_upper": 0.6846
+      },
+      "sensitivity": {
+        "mean": 0.5749,
+        "std": 0.2466,
+        "ci_lower": 0.5078,
+        "ci_upper": 0.6479
+      },
+      "specificity": {
+        "mean": 0.8095,
+        "std": 0.1374,
+        "ci_lower": 0.7695,
+        "ci_upper": 0.8462
+      },
+      "f1": {
+        "mean": 0.5649,
+        "std": 0.1519,
+        "ci_lower": 0.5217,
+        "ci_upper": 0.6059
+      },
+      "balanced_accuracy": {
+        "mean": 0.6922,
+        "std": 0.0647,
+        "ci_lower": 0.6748,
+        "ci_upper": 0.7097
+      },
+      "mcc": {
+        "mean": 0.4124,
+        "std": 0.1021,
+        "ci_lower": 0.3844,
+        "ci_upper": 0.4402
+      },
+      "roc_auc": {
+        "mean": 0.8067,
+        "std": 0.0391,
+        "ci_lower": 0.7949,
+        "ci_upper": 0.8181
+      },
+      "pr_auc": {
+        "mean": 0.6542,
+        "std": 0.0603,
+        "ci_lower": 0.6369,
+        "ci_upper": 0.6702
+      },
+      "brier": {
+        "mean": 0.1733,
+        "std": 0.0149,
+        "ci_lower": 0.1691,
+        "ci_upper": 0.1775
+      },
+      "ece": {
+        "mean": 0.093,
+        "std": 0.0308,
+        "ci_lower": 0.0843,
+        "ci_upper": 0.1015
+      }
+    }
+  },
+  "cleveland": {
+    "Full DS-HTE": {
+      "accuracy": {
+        "mean": 0.8196,
+        "std": 0.0546,
+        "ci_lower": 0.8026,
+        "ci_upper": 0.8338
+      },
+      "precision": {
+        "mean": 0.8299,
+        "std": 0.0887,
+        "ci_lower": 0.8029,
+        "ci_upper": 0.8514
+      },
+      "sensitivity": {
+        "mean": 0.7802,
+        "std": 0.1065,
+        "ci_lower": 0.7499,
+        "ci_upper": 0.809
+      },
+      "specificity": {
+        "mean": 0.8536,
+        "std": 0.0919,
+        "ci_lower": 0.825,
+        "ci_upper": 0.875
+      },
+      "f1": {
+        "mean": 0.7969,
+        "std": 0.0642,
+        "ci_lower": 0.778,
+        "ci_upper": 0.8129
+      },
+      "balanced_accuracy": {
+        "mean": 0.8169,
+        "std": 0.0554,
+        "ci_lower": 0.7991,
+        "ci_upper": 0.8308
+      },
+      "mcc": {
+        "mean": 0.6452,
+        "std": 0.1091,
+        "ci_lower": 0.6095,
+        "ci_upper": 0.6726
+      },
+      "roc_auc": {
+        "mean": 0.9021,
+        "std": 0.0405,
+        "ci_lower": 0.8886,
+        "ci_upper": 0.9115
+      },
+      "pr_auc": {
+        "mean": 0.8984,
+        "std": 0.0463,
+        "ci_lower": 0.8841,
+        "ci_upper": 0.909
+      },
+      "brier": {
+        "mean": 0.1274,
+        "std": 0.0303,
+        "ci_lower": 0.1201,
+        "ci_upper": 0.1365
+      },
+      "ece": {
+        "mean": 0.1289,
+        "std": 0.0333,
+        "ci_lower": 0.1197,
+        "ci_upper": 0.1388
+      }
+    },
+    "Minus Feature Optimization": {
+      "accuracy": {
+        "mean": 0.8101,
+        "std": 0.0594,
+        "ci_lower": 0.7922,
+        "ci_upper": 0.8253
+      },
+      "precision": {
+        "mean": 0.8215,
+        "std": 0.0982,
+        "ci_lower": 0.7916,
+        "ci_upper": 0.8459
+      },
+      "sensitivity": {
+        "mean": 0.773,
+        "std": 0.1251,
+        "ci_lower": 0.7407,
+        "ci_upper": 0.8084
+      },
+      "specificity": {
+        "mean": 0.842,
+        "std": 0.108,
+        "ci_lower": 0.8104,
+        "ci_upper": 0.8682
+      },
+      "f1": {
+        "mean": 0.7859,
+        "std": 0.0728,
+        "ci_lower": 0.7659,
+        "ci_upper": 0.8045
+      },
+      "balanced_accuracy": {
+        "mean": 0.8075,
+        "std": 0.0602,
+        "ci_lower": 0.7904,
+        "ci_upper": 0.8221
+      },
+      "mcc": {
+        "mean": 0.6295,
+        "std": 0.1178,
+        "ci_lower": 0.5925,
+        "ci_upper": 0.6591
+      },
+      "roc_auc": {
+        "mean": 0.9023,
+        "std": 0.042,
+        "ci_lower": 0.8881,
+        "ci_upper": 0.9121
+      },
+      "pr_auc": {
+        "mean": 0.9002,
+        "std": 0.0441,
+        "ci_lower": 0.887,
+        "ci_upper": 0.9103
+      },
+      "brier": {
+        "mean": 0.1287,
+        "std": 0.0298,
+        "ci_lower": 0.1216,
+        "ci_upper": 0.1376
+      },
+      "ece": {
+        "mean": 0.1323,
+        "std": 0.0324,
+        "ci_lower": 0.1238,
+        "ci_upper": 0.14
+      }
+    },
+    "Minus Imbalance Handling": {
+      "accuracy": {
+        "mean": 0.8196,
+        "std": 0.0546,
+        "ci_lower": 0.8026,
+        "ci_upper": 0.8338
+      },
+      "precision": {
+        "mean": 0.8299,
+        "std": 0.0887,
+        "ci_lower": 0.8029,
+        "ci_upper": 0.8514
+      },
+      "sensitivity": {
+        "mean": 0.7802,
+        "std": 0.1065,
+        "ci_lower": 0.7499,
+        "ci_upper": 0.809
+      },
+      "specificity": {
+        "mean": 0.8536,
+        "std": 0.0919,
+        "ci_lower": 0.825,
+        "ci_upper": 0.875
+      },
+      "f1": {
+        "mean": 0.7969,
+        "std": 0.0642,
+        "ci_lower": 0.778,
+        "ci_upper": 0.8129
+      },
+      "balanced_accuracy": {
+        "mean": 0.8169,
+        "std": 0.0554,
+        "ci_lower": 0.7991,
+        "ci_upper": 0.8308
+      },
+      "mcc": {
+        "mean": 0.6452,
+        "std": 0.1091,
+        "ci_lower": 0.6095,
+        "ci_upper": 0.6726
+      },
+      "roc_auc": {
+        "mean": 0.9021,
+        "std": 0.0405,
+        "ci_lower": 0.8886,
+        "ci_upper": 0.9115
+      },
+      "pr_auc": {
+        "mean": 0.8984,
+        "std": 0.0463,
+        "ci_lower": 0.8841,
+        "ci_upper": 0.909
+      },
+      "brier": {
+        "mean": 0.1274,
+        "std": 0.0303,
+        "ci_lower": 0.1201,
+        "ci_upper": 0.1365
+      },
+      "ece": {
+        "mean": 0.1289,
+        "std": 0.0333,
+        "ci_lower": 0.1197,
+        "ci_upper": 0.1388
+      }
+    },
+    "Minus Calibration": {
+      "accuracy": {
+        "mean": 0.818,
+        "std": 0.0555,
+        "ci_lower": 0.8004,
+        "ci_upper": 0.8312
+      },
+      "precision": {
+        "mean": 0.8274,
+        "std": 0.0936,
+        "ci_lower": 0.7987,
+        "ci_upper": 0.8499
+      },
+      "sensitivity": {
+        "mean": 0.7811,
+        "std": 0.1051,
+        "ci_lower": 0.7511,
+        "ci_upper": 0.8111
+      },
+      "specificity": {
+        "mean": 0.8499,
+        "std": 0.097,
+        "ci_lower": 0.8205,
+        "ci_upper": 0.8727
+      },
+      "f1": {
+        "mean": 0.796,
+        "std": 0.0635,
+        "ci_lower": 0.7775,
+        "ci_upper": 0.812
+      },
+      "balanced_accuracy": {
+        "mean": 0.8155,
+        "std": 0.0558,
+        "ci_lower": 0.7976,
+        "ci_upper": 0.8289
+      },
+      "mcc": {
+        "mean": 0.6426,
+        "std": 0.1119,
+        "ci_lower": 0.6066,
+        "ci_upper": 0.6689
+      },
+      "roc_auc": {
+        "mean": 0.9021,
+        "std": 0.0405,
+        "ci_lower": 0.8886,
+        "ci_upper": 0.9115
+      },
+      "pr_auc": {
+        "mean": 0.8984,
+        "std": 0.0463,
+        "ci_lower": 0.8841,
+        "ci_upper": 0.909
+      },
+      "brier": {
+        "mean": 0.1272,
+        "std": 0.0277,
+        "ci_lower": 0.1208,
+        "ci_upper": 0.1357
+      },
+      "ece": {
+        "mean": 0.1284,
+        "std": 0.0325,
+        "ci_lower": 0.1193,
+        "ci_upper": 0.1374
+      }
+    },
+    "Minus Threshold Optimization": {
+      "accuracy": {
+        "mean": 0.8271,
+        "std": 0.0564,
+        "ci_lower": 0.8091,
+        "ci_upper": 0.8416
+      },
+      "precision": {
+        "mean": 0.8471,
+        "std": 0.0799,
+        "ci_lower": 0.8229,
+        "ci_upper": 0.8683
+      },
+      "sensitivity": {
+        "mean": 0.7693,
+        "std": 0.1001,
+        "ci_lower": 0.7425,
+        "ci_upper": 0.7967
+      },
+      "specificity": {
+        "mean": 0.8764,
+        "std": 0.0737,
+        "ci_lower": 0.8543,
+        "ci_upper": 0.8962
+      },
+      "f1": {
+        "mean": 0.8014,
+        "std": 0.0674,
+        "ci_lower": 0.7805,
+        "ci_upper": 0.8187
+      },
+      "balanced_accuracy": {
+        "mean": 0.8229,
+        "std": 0.0578,
+        "ci_lower": 0.8048,
+        "ci_upper": 0.8379
+      },
+      "mcc": {
+        "mean": 0.6572,
+        "std": 0.1136,
+        "ci_lower": 0.6209,
+        "ci_upper": 0.6858
+      },
+      "roc_auc": {
+        "mean": 0.9021,
+        "std": 0.0405,
+        "ci_lower": 0.8886,
+        "ci_upper": 0.9115
+      },
+      "pr_auc": {
+        "mean": 0.8984,
+        "std": 0.0463,
+        "ci_lower": 0.8841,
+        "ci_upper": 0.909
+      },
+      "brier": {
+        "mean": 0.1274,
+        "std": 0.0303,
+        "ci_lower": 0.1201,
+        "ci_upper": 0.1365
+      },
+      "ece": {
+        "mean": 0.1289,
+        "std": 0.0333,
+        "ci_lower": 0.1197,
+        "ci_upper": 0.1388
+      }
+    },
+    "GBDT-Only Ensemble": {
+      "accuracy": {
+        "mean": 0.816,
+        "std": 0.0543,
+        "ci_lower": 0.7996,
+        "ci_upper": 0.8295
+      },
+      "precision": {
+        "mean": 0.8251,
+        "std": 0.0928,
+        "ci_lower": 0.7968,
+        "ci_upper": 0.8469
+      },
+      "sensitivity": {
+        "mean": 0.7803,
+        "std": 0.1129,
+        "ci_lower": 0.7492,
+        "ci_upper": 0.8129
+      },
+      "specificity": {
+        "mean": 0.8467,
+        "std": 0.0971,
+        "ci_lower": 0.8173,
+        "ci_upper": 0.8681
+      },
+      "f1": {
+        "mean": 0.7934,
+        "std": 0.0641,
+        "ci_lower": 0.7747,
+        "ci_upper": 0.8099
+      },
+      "balanced_accuracy": {
+        "mean": 0.8135,
+        "std": 0.0551,
+        "ci_lower": 0.797,
+        "ci_upper": 0.8272
+      },
+      "mcc": {
+        "mean": 0.6395,
+        "std": 0.1093,
+        "ci_lower": 0.605,
+        "ci_upper": 0.6656
+      },
+      "roc_auc": {
+        "mean": 0.9017,
+        "std": 0.04,
+        "ci_lower": 0.8879,
+        "ci_upper": 0.9115
+      },
+      "pr_auc": {
+        "mean": 0.898,
+        "std": 0.0458,
+        "ci_lower": 0.8839,
+        "ci_upper": 0.9087
+      },
+      "brier": {
+        "mean": 0.1277,
+        "std": 0.03,
+        "ci_lower": 0.1207,
+        "ci_upper": 0.1368
+      },
+      "ece": {
+        "mean": 0.132,
+        "std": 0.0341,
+        "ci_lower": 0.1231,
+        "ci_upper": 0.142
+      }
+    },
+    "Minus Transformer": {
+      "accuracy": {
+        "mean": 0.816,
+        "std": 0.0543,
+        "ci_lower": 0.7996,
+        "ci_upper": 0.8295
+      },
+      "precision": {
+        "mean": 0.8251,
+        "std": 0.0928,
+        "ci_lower": 0.7968,
+        "ci_upper": 0.8469
+      },
+      "sensitivity": {
+        "mean": 0.7803,
+        "std": 0.1129,
+        "ci_lower": 0.7492,
+        "ci_upper": 0.8129
+      },
+      "specificity": {
+        "mean": 0.8467,
+        "std": 0.0971,
+        "ci_lower": 0.8173,
+        "ci_upper": 0.8681
+      },
+      "f1": {
+        "mean": 0.7934,
+        "std": 0.0641,
+        "ci_lower": 0.7747,
+        "ci_upper": 0.8099
+      },
+      "balanced_accuracy": {
+        "mean": 0.8135,
+        "std": 0.0551,
+        "ci_lower": 0.797,
+        "ci_upper": 0.8272
+      },
+      "mcc": {
+        "mean": 0.6395,
+        "std": 0.1093,
+        "ci_lower": 0.605,
+        "ci_upper": 0.6656
+      },
+      "roc_auc": {
+        "mean": 0.9017,
+        "std": 0.04,
+        "ci_lower": 0.8879,
+        "ci_upper": 0.9115
+      },
+      "pr_auc": {
+        "mean": 0.898,
+        "std": 0.0458,
+        "ci_lower": 0.8839,
+        "ci_upper": 0.9087
+      },
+      "brier": {
+        "mean": 0.1277,
+        "std": 0.03,
+        "ci_lower": 0.1207,
+        "ci_upper": 0.1368
+      },
+      "ece": {
+        "mean": 0.132,
+        "std": 0.0341,
+        "ci_lower": 0.1231,
+        "ci_upper": 0.142
+      }
+    },
+    "LR-Only": {
+      "accuracy": {
+        "mean": 0.8172,
+        "std": 0.0573,
+        "ci_lower": 0.7994,
+        "ci_upper": 0.8319
+      },
+      "precision": {
+        "mean": 0.8272,
+        "std": 0.0948,
+        "ci_lower": 0.8016,
+        "ci_upper": 0.8521
+      },
+      "sensitivity": {
+        "mean": 0.7802,
+        "std": 0.108,
+        "ci_lower": 0.7521,
+        "ci_upper": 0.8079
+      },
+      "specificity": {
+        "mean": 0.8488,
+        "std": 0.1025,
+        "ci_lower": 0.8214,
+        "ci_upper": 0.8763
+      },
+      "f1": {
+        "mean": 0.7952,
+        "std": 0.0648,
+        "ci_lower": 0.7764,
+        "ci_upper": 0.8125
+      },
+      "balanced_accuracy": {
+        "mean": 0.8145,
+        "std": 0.0574,
+        "ci_lower": 0.797,
+        "ci_upper": 0.8296
+      },
+      "mcc": {
+        "mean": 0.6414,
+        "std": 0.114,
+        "ci_lower": 0.6067,
+        "ci_upper": 0.6699
+      },
+      "roc_auc": {
+        "mean": 0.9024,
+        "std": 0.0407,
+        "ci_lower": 0.8886,
+        "ci_upper": 0.9123
+      },
+      "pr_auc": {
+        "mean": 0.9002,
+        "std": 0.0447,
+        "ci_lower": 0.8854,
+        "ci_upper": 0.9109
+      },
+      "brier": {
+        "mean": 0.1279,
+        "std": 0.0297,
+        "ci_lower": 0.1211,
+        "ci_upper": 0.1372
+      },
+      "ece": {
+        "mean": 0.131,
+        "std": 0.0312,
+        "ci_lower": 0.122,
+        "ci_upper": 0.1403
+      }
+    },
+    "Transformer-Only": {
+      "accuracy": {
+        "mean": 0.7677,
+        "std": 0.0655,
+        "ci_lower": 0.7482,
+        "ci_upper": 0.7838
+      },
+      "precision": {
+        "mean": 0.7887,
+        "std": 0.1175,
+        "ci_lower": 0.7568,
+        "ci_upper": 0.8215
+      },
+      "sensitivity": {
+        "mean": 0.7324,
+        "std": 0.1751,
+        "ci_lower": 0.681,
+        "ci_upper": 0.7809
+      },
+      "specificity": {
+        "mean": 0.7976,
+        "std": 0.1727,
+        "ci_lower": 0.7498,
+        "ci_upper": 0.8418
+      },
+      "f1": {
+        "mean": 0.7365,
+        "std": 0.0846,
+        "ci_lower": 0.7109,
+        "ci_upper": 0.7591
+      },
+      "balanced_accuracy": {
+        "mean": 0.765,
+        "std": 0.0651,
+        "ci_lower": 0.7459,
+        "ci_upper": 0.7821
+      },
+      "mcc": {
+        "mean": 0.5589,
+        "std": 0.117,
+        "ci_lower": 0.525,
+        "ci_upper": 0.5888
+      },
+      "roc_auc": {
+        "mean": 0.8919,
+        "std": 0.0477,
+        "ci_lower": 0.8777,
+        "ci_upper": 0.9037
+      },
+      "pr_auc": {
+        "mean": 0.8866,
+        "std": 0.0491,
+        "ci_lower": 0.8725,
+        "ci_upper": 0.8986
+      },
+      "brier": {
+        "mean": 0.1666,
+        "std": 0.0482,
+        "ci_lower": 0.1555,
+        "ci_upper": 0.1805
+      },
+      "ece": {
+        "mean": 0.1726,
+        "std": 0.0587,
+        "ci_lower": 0.1593,
+        "ci_upper": 0.1888
+      }
+    }
+  },
+  "ckd": {
+    "Full DS-HTE": {
+      "accuracy": {
+        "mean": 0.9869,
+        "std": 0.0149,
+        "ci_lower": 0.9831,
+        "ci_upper": 0.9906
+      },
+      "precision": {
+        "mean": 0.9875,
+        "std": 0.0197,
+        "ci_lower": 0.9823,
+        "ci_upper": 0.9922
+      },
+      "sensitivity": {
+        "mean": 0.992,
+        "std": 0.0138,
+        "ci_lower": 0.988,
+        "ci_upper": 0.9958
+      },
+      "specificity": {
+        "mean": 0.9783,
+        "std": 0.035,
+        "ci_lower": 0.9692,
+        "ci_upper": 0.9867
+      },
+      "f1": {
+        "mean": 0.9896,
+        "std": 0.0117,
+        "ci_lower": 0.9866,
+        "ci_upper": 0.9926
+      },
+      "balanced_accuracy": {
+        "mean": 0.9852,
+        "std": 0.0181,
+        "ci_lower": 0.9807,
+        "ci_upper": 0.9895
+      },
+      "mcc": {
+        "mean": 0.9724,
+        "std": 0.0313,
+        "ci_lower": 0.9647,
+        "ci_upper": 0.9804
+      },
+      "roc_auc": {
+        "mean": 0.9958,
+        "std": 0.0091,
+        "ci_lower": 0.9931,
+        "ci_upper": 0.9983
+      },
+      "pr_auc": {
+        "mean": 0.996,
+        "std": 0.0093,
+        "ci_lower": 0.9933,
+        "ci_upper": 0.9986
+      },
+      "brier": {
+        "mean": 0.0104,
+        "std": 0.0109,
+        "ci_lower": 0.0074,
+        "ci_upper": 0.0134
+      },
+      "ece": {
+        "mean": 0.0129,
+        "std": 0.0116,
+        "ci_lower": 0.0097,
+        "ci_upper": 0.016
+      }
+    },
+    "Minus Feature Optimization": {
+      "accuracy": {
+        "mean": 0.9891,
+        "std": 0.0142,
+        "ci_lower": 0.9853,
+        "ci_upper": 0.9931
+      },
+      "precision": {
+        "mean": 0.9918,
+        "std": 0.0172,
+        "ci_lower": 0.987,
+        "ci_upper": 0.9961
+      },
+      "sensitivity": {
+        "mean": 0.991,
+        "std": 0.0149,
+        "ci_lower": 0.9865,
+        "ci_upper": 0.995
+      },
+      "specificity": {
+        "mean": 0.9858,
+        "std": 0.0299,
+        "ci_lower": 0.9775,
+        "ci_upper": 0.9933
+      },
+      "f1": {
+        "mean": 0.9913,
+        "std": 0.0113,
+        "ci_lower": 0.9882,
+        "ci_upper": 0.9945
+      },
+      "balanced_accuracy": {
+        "mean": 0.9884,
+        "std": 0.0164,
+        "ci_lower": 0.9839,
+        "ci_upper": 0.9928
+      },
+      "mcc": {
+        "mean": 0.9771,
+        "std": 0.0299,
+        "ci_lower": 0.9693,
+        "ci_upper": 0.9855
+      },
+      "roc_auc": {
+        "mean": 0.9963,
+        "std": 0.0076,
+        "ci_lower": 0.9938,
+        "ci_upper": 0.9981
+      },
+      "pr_auc": {
+        "mean": 0.9967,
+        "std": 0.0071,
+        "ci_lower": 0.9945,
+        "ci_upper": 0.9985
+      },
+      "brier": {
+        "mean": 0.0084,
+        "std": 0.0095,
+        "ci_lower": 0.006,
+        "ci_upper": 0.0111
+      },
+      "ece": {
+        "mean": 0.0115,
+        "std": 0.0103,
+        "ci_lower": 0.0089,
+        "ci_upper": 0.0143
+      }
+    },
+    "Minus Imbalance Handling": {
+      "accuracy": {
+        "mean": 0.9869,
+        "std": 0.0149,
+        "ci_lower": 0.9831,
+        "ci_upper": 0.9906
+      },
+      "precision": {
+        "mean": 0.9875,
+        "std": 0.0197,
+        "ci_lower": 0.9823,
+        "ci_upper": 0.9922
+      },
+      "sensitivity": {
+        "mean": 0.992,
+        "std": 0.0138,
+        "ci_lower": 0.988,
+        "ci_upper": 0.9958
+      },
+      "specificity": {
+        "mean": 0.9783,
+        "std": 0.035,
+        "ci_lower": 0.9692,
+        "ci_upper": 0.9867
+      },
+      "f1": {
+        "mean": 0.9896,
+        "std": 0.0117,
+        "ci_lower": 0.9866,
+        "ci_upper": 0.9926
+      },
+      "balanced_accuracy": {
+        "mean": 0.9852,
+        "std": 0.0181,
+        "ci_lower": 0.9807,
+        "ci_upper": 0.9895
+      },
+      "mcc": {
+        "mean": 0.9724,
+        "std": 0.0313,
+        "ci_lower": 0.9647,
+        "ci_upper": 0.9804
+      },
+      "roc_auc": {
+        "mean": 0.9958,
+        "std": 0.0091,
+        "ci_lower": 0.9931,
+        "ci_upper": 0.9983
+      },
+      "pr_auc": {
+        "mean": 0.996,
+        "std": 0.0093,
+        "ci_lower": 0.9933,
+        "ci_upper": 0.9986
+      },
+      "brier": {
+        "mean": 0.0104,
+        "std": 0.0109,
+        "ci_lower": 0.0074,
+        "ci_upper": 0.0134
+      },
+      "ece": {
+        "mean": 0.0129,
+        "std": 0.0116,
+        "ci_lower": 0.0097,
+        "ci_upper": 0.016
+      }
+    },
+    "Minus Calibration": {
+      "accuracy": {
+        "mean": 0.9862,
+        "std": 0.0147,
+        "ci_lower": 0.9825,
+        "ci_upper": 0.9902
+      },
+      "precision": {
+        "mean": 0.9898,
+        "std": 0.0162,
+        "ci_lower": 0.9855,
+        "ci_upper": 0.9941
+      },
+      "sensitivity": {
+        "mean": 0.9885,
+        "std": 0.0169,
+        "ci_lower": 0.9835,
+        "ci_upper": 0.9933
+      },
+      "specificity": {
+        "mean": 0.9825,
+        "std": 0.028,
+        "ci_lower": 0.975,
+        "ci_upper": 0.99
+      },
+      "f1": {
+        "mean": 0.989,
+        "std": 0.0118,
+        "ci_lower": 0.9859,
+        "ci_upper": 0.9922
+      },
+      "balanced_accuracy": {
+        "mean": 0.9855,
+        "std": 0.0162,
+        "ci_lower": 0.9815,
+        "ci_upper": 0.9897
+      },
+      "mcc": {
+        "mean": 0.9712,
+        "std": 0.0308,
+        "ci_lower": 0.9633,
+        "ci_upper": 0.9793
+      },
+      "roc_auc": {
+        "mean": 0.9994,
+        "std": 0.0016,
+        "ci_lower": 0.9989,
+        "ci_upper": 0.9998
+      },
+      "pr_auc": {
+        "mean": 0.9997,
+        "std": 0.0009,
+        "ci_lower": 0.9994,
+        "ci_upper": 0.9999
+      },
+      "brier": {
+        "mean": 0.0122,
+        "std": 0.0069,
+        "ci_lower": 0.0103,
+        "ci_upper": 0.0142
+      },
+      "ece": {
+        "mean": 0.0492,
+        "std": 0.0087,
+        "ci_lower": 0.0469,
+        "ci_upper": 0.0514
+      }
+    },
+    "Minus Threshold Optimization": {
+      "accuracy": {
+        "mean": 0.9869,
+        "std": 0.0149,
+        "ci_lower": 0.9831,
+        "ci_upper": 0.9909
+      },
+      "precision": {
+        "mean": 0.987,
+        "std": 0.0197,
+        "ci_lower": 0.9817,
+        "ci_upper": 0.9918
+      },
+      "sensitivity": {
+        "mean": 0.9925,
+        "std": 0.0136,
+        "ci_lower": 0.9885,
+        "ci_upper": 0.996
+      },
+      "specificity": {
+        "mean": 0.9775,
+        "std": 0.0349,
+        "ci_lower": 0.9679,
+        "ci_upper": 0.9858
+      },
+      "f1": {
+        "mean": 0.9896,
+        "std": 0.0117,
+        "ci_lower": 0.9866,
+        "ci_upper": 0.9928
+      },
+      "balanced_accuracy": {
+        "mean": 0.985,
+        "std": 0.0181,
+        "ci_lower": 0.9803,
+        "ci_upper": 0.9896
+      },
+      "mcc": {
+        "mean": 0.9724,
+        "std": 0.0313,
+        "ci_lower": 0.9645,
+        "ci_upper": 0.9809
+      },
+      "roc_auc": {
+        "mean": 0.9958,
+        "std": 0.0091,
+        "ci_lower": 0.9931,
+        "ci_upper": 0.9983
+      },
+      "pr_auc": {
+        "mean": 0.996,
+        "std": 0.0093,
+        "ci_lower": 0.9933,
+        "ci_upper": 0.9986
+      },
+      "brier": {
+        "mean": 0.0104,
+        "std": 0.0109,
+        "ci_lower": 0.0074,
+        "ci_upper": 0.0134
+      },
+      "ece": {
+        "mean": 0.0129,
+        "std": 0.0116,
+        "ci_lower": 0.0097,
+        "ci_upper": 0.016
+      }
+    },
+    "GBDT-Only Ensemble": {
+      "accuracy": {
+        "mean": 0.9872,
+        "std": 0.015,
+        "ci_lower": 0.9834,
+        "ci_upper": 0.9909
+      },
+      "precision": {
+        "mean": 0.9875,
+        "std": 0.0197,
+        "ci_lower": 0.9823,
+        "ci_upper": 0.9922
+      },
+      "sensitivity": {
+        "mean": 0.9925,
+        "std": 0.0136,
+        "ci_lower": 0.9885,
+        "ci_upper": 0.996
+      },
+      "specificity": {
+        "mean": 0.9783,
+        "std": 0.035,
+        "ci_lower": 0.9692,
+        "ci_upper": 0.9867
+      },
+      "f1": {
+        "mean": 0.9898,
+        "std": 0.0118,
+        "ci_lower": 0.9868,
+        "ci_upper": 0.9928
+      },
+      "balanced_accuracy": {
+        "mean": 0.9854,
+        "std": 0.0182,
+        "ci_lower": 0.981,
+        "ci_upper": 0.9898
+      },
+      "mcc": {
+        "mean": 0.9731,
+        "std": 0.0315,
+        "ci_lower": 0.9652,
+        "ci_upper": 0.981
+      },
+      "roc_auc": {
+        "mean": 0.9958,
+        "std": 0.0091,
+        "ci_lower": 0.9931,
+        "ci_upper": 0.9983
+      },
+      "pr_auc": {
+        "mean": 0.996,
+        "std": 0.0093,
+        "ci_lower": 0.9933,
+        "ci_upper": 0.9986
+      },
+      "brier": {
+        "mean": 0.0105,
+        "std": 0.011,
+        "ci_lower": 0.0075,
+        "ci_upper": 0.0135
+      },
+      "ece": {
+        "mean": 0.013,
+        "std": 0.0117,
+        "ci_lower": 0.0097,
+        "ci_upper": 0.0161
+      }
+    },
+    "Minus Transformer": {
+      "accuracy": {
+        "mean": 0.9872,
+        "std": 0.015,
+        "ci_lower": 0.9834,
+        "ci_upper": 0.9909
+      },
+      "precision": {
+        "mean": 0.9875,
+        "std": 0.0197,
+        "ci_lower": 0.9823,
+        "ci_upper": 0.9922
+      },
+      "sensitivity": {
+        "mean": 0.9925,
+        "std": 0.0136,
+        "ci_lower": 0.9885,
+        "ci_upper": 0.996
+      },
+      "specificity": {
+        "mean": 0.9783,
+        "std": 0.035,
+        "ci_lower": 0.9692,
+        "ci_upper": 0.9867
+      },
+      "f1": {
+        "mean": 0.9898,
+        "std": 0.0118,
+        "ci_lower": 0.9868,
+        "ci_upper": 0.9928
+      },
+      "balanced_accuracy": {
+        "mean": 0.9854,
+        "std": 0.0182,
+        "ci_lower": 0.981,
+        "ci_upper": 0.9898
+      },
+      "mcc": {
+        "mean": 0.9731,
+        "std": 0.0315,
+        "ci_lower": 0.9652,
+        "ci_upper": 0.981
+      },
+      "roc_auc": {
+        "mean": 0.9958,
+        "std": 0.0091,
+        "ci_lower": 0.9931,
+        "ci_upper": 0.9983
+      },
+      "pr_auc": {
+        "mean": 0.996,
+        "std": 0.0093,
+        "ci_lower": 0.9933,
+        "ci_upper": 0.9986
+      },
+      "brier": {
+        "mean": 0.0105,
+        "std": 0.011,
+        "ci_lower": 0.0075,
+        "ci_upper": 0.0135
+      },
+      "ece": {
+        "mean": 0.013,
+        "std": 0.0117,
+        "ci_lower": 0.0097,
+        "ci_upper": 0.0161
+      }
+    },
+    "LR-Only": {
+      "accuracy": {
+        "mean": 0.9878,
+        "std": 0.0131,
+        "ci_lower": 0.9838,
+        "ci_upper": 0.9916
+      },
+      "precision": {
+        "mean": 0.9926,
+        "std": 0.0124,
+        "ci_lower": 0.9892,
+        "ci_upper": 0.9961
+      },
+      "sensitivity": {
+        "mean": 0.988,
+        "std": 0.0169,
+        "ci_lower": 0.983,
+        "ci_upper": 0.993
+      },
+      "specificity": {
+        "mean": 0.9875,
+        "std": 0.021,
+        "ci_lower": 0.9817,
+        "ci_upper": 0.9933
+      },
+      "f1": {
+        "mean": 0.9902,
+        "std": 0.0106,
+        "ci_lower": 0.9869,
+        "ci_upper": 0.9932
+      },
+      "balanced_accuracy": {
+        "mean": 0.9878,
+        "std": 0.0134,
+        "ci_lower": 0.9837,
+        "ci_upper": 0.9918
+      },
+      "mcc": {
+        "mean": 0.9745,
+        "std": 0.0275,
+        "ci_lower": 0.966,
+        "ci_upper": 0.9823
+      },
+      "roc_auc": {
+        "mean": 0.9963,
+        "std": 0.0088,
+        "ci_lower": 0.9934,
+        "ci_upper": 0.9984
+      },
+      "pr_auc": {
+        "mean": 0.9965,
+        "std": 0.0086,
+        "ci_lower": 0.9936,
+        "ci_upper": 0.9986
+      },
+      "brier": {
+        "mean": 0.0104,
+        "std": 0.0106,
+        "ci_lower": 0.0073,
+        "ci_upper": 0.0138
+      },
+      "ece": {
+        "mean": 0.0147,
+        "std": 0.0108,
+        "ci_lower": 0.0117,
+        "ci_upper": 0.0179
+      }
+    },
+    "Transformer-Only": {
+      "accuracy": {
+        "mean": 0.9806,
+        "std": 0.0235,
+        "ci_lower": 0.9739,
+        "ci_upper": 0.9866
+      },
+      "precision": {
+        "mean": 0.988,
+        "std": 0.0284,
+        "ci_lower": 0.979,
+        "ci_upper": 0.9951
+      },
+      "sensitivity": {
+        "mean": 0.982,
+        "std": 0.0263,
+        "ci_lower": 0.9747,
+        "ci_upper": 0.989
+      },
+      "specificity": {
+        "mean": 0.9783,
+        "std": 0.0534,
+        "ci_lower": 0.9612,
+        "ci_upper": 0.9917
+      },
+      "f1": {
+        "mean": 0.9845,
+        "std": 0.0184,
+        "ci_lower": 0.9795,
+        "ci_upper": 0.9892
+      },
+      "balanced_accuracy": {
+        "mean": 0.9802,
+        "std": 0.0276,
+        "ci_lower": 0.9719,
+        "ci_upper": 0.9869
+      },
+      "mcc": {
+        "mean": 0.9601,
+        "std": 0.0481,
+        "ci_lower": 0.9463,
+        "ci_upper": 0.9723
+      },
+      "roc_auc": {
+        "mean": 0.9865,
+        "std": 0.0214,
+        "ci_lower": 0.9801,
+        "ci_upper": 0.992
+      },
+      "pr_auc": {
+        "mean": 0.9873,
+        "std": 0.0221,
+        "ci_lower": 0.9805,
+        "ci_upper": 0.9928
+      },
+      "brier": {
+        "mean": 0.0169,
+        "std": 0.0201,
+        "ci_lower": 0.0112,
+        "ci_upper": 0.0223
+      },
+      "ece": {
+        "mean": 0.0185,
+        "std": 0.0208,
+        "ci_lower": 0.0126,
+        "ci_upper": 0.0242
+      }
+    }
+  },
+  "ilpd": {
+    "Full DS-HTE": {
+      "accuracy": {
+        "mean": 0.6236,
+        "std": 0.0472,
+        "ci_lower": 0.6105,
+        "ci_upper": 0.6363
+      },
+      "precision": {
+        "mean": 0.89,
+        "std": 0.053,
+        "ci_lower": 0.8763,
+        "ci_upper": 0.9052
+      },
+      "sensitivity": {
+        "mean": 0.5462,
+        "std": 0.0905,
+        "ci_lower": 0.5213,
+        "ci_upper": 0.5693
+      },
+      "specificity": {
+        "mean": 0.8174,
+        "std": 0.1028,
+        "ci_lower": 0.7907,
+        "ci_upper": 0.8474
+      },
+      "f1": {
+        "mean": 0.6702,
+        "std": 0.064,
+        "ci_lower": 0.6521,
+        "ci_upper": 0.6867
+      },
+      "balanced_accuracy": {
+        "mean": 0.6818,
+        "std": 0.0346,
+        "ci_lower": 0.6727,
+        "ci_upper": 0.6911
+      },
+      "mcc": {
+        "mean": 0.3365,
+        "std": 0.0654,
+        "ci_lower": 0.3197,
+        "ci_upper": 0.3547
+      },
+      "roc_auc": {
+        "mean": 0.7359,
+        "std": 0.0428,
+        "ci_lower": 0.7248,
+        "ci_upper": 0.7465
+      },
+      "pr_auc": {
+        "mean": 0.8711,
+        "std": 0.0234,
+        "ci_lower": 0.8649,
+        "ci_upper": 0.8771
+      },
+      "brier": {
+        "mean": 0.1777,
+        "std": 0.0127,
+        "ci_lower": 0.1745,
+        "ci_upper": 0.1811
+      },
+      "ece": {
+        "mean": 0.0778,
+        "std": 0.0267,
+        "ci_lower": 0.0704,
+        "ci_upper": 0.085
+      }
+    },
+    "Minus Feature Optimization": {
+      "accuracy": {
+        "mean": 0.6231,
+        "std": 0.0486,
+        "ci_lower": 0.6097,
+        "ci_upper": 0.6358
+      },
+      "precision": {
+        "mean": 0.8903,
+        "std": 0.0538,
+        "ci_lower": 0.8767,
+        "ci_upper": 0.9055
+      },
+      "sensitivity": {
+        "mean": 0.5455,
+        "std": 0.0939,
+        "ci_lower": 0.5185,
+        "ci_upper": 0.5708
+      },
+      "specificity": {
+        "mean": 0.8174,
+        "std": 0.1088,
+        "ci_lower": 0.7888,
+        "ci_upper": 0.8483
+      },
+      "f1": {
+        "mean": 0.6694,
+        "std": 0.0671,
+        "ci_lower": 0.6504,
+        "ci_upper": 0.6864
+      },
+      "balanced_accuracy": {
+        "mean": 0.6814,
+        "std": 0.037,
+        "ci_lower": 0.672,
+        "ci_upper": 0.692
+      },
+      "mcc": {
+        "mean": 0.3362,
+        "std": 0.0686,
+        "ci_lower": 0.3184,
+        "ci_upper": 0.356
+      },
+      "roc_auc": {
+        "mean": 0.7343,
+        "std": 0.0484,
+        "ci_lower": 0.722,
+        "ci_upper": 0.7466
+      },
+      "pr_auc": {
+        "mean": 0.8687,
+        "std": 0.0246,
+        "ci_lower": 0.8623,
+        "ci_upper": 0.8747
+      },
+      "brier": {
+        "mean": 0.1775,
+        "std": 0.0135,
+        "ci_lower": 0.1741,
+        "ci_upper": 0.1809
+      },
+      "ece": {
+        "mean": 0.0782,
+        "std": 0.0243,
+        "ci_lower": 0.0715,
+        "ci_upper": 0.0844
+      }
+    },
+    "Minus Imbalance Handling": {
+      "accuracy": {
+        "mean": 0.6236,
+        "std": 0.0472,
+        "ci_lower": 0.6105,
+        "ci_upper": 0.6363
+      },
+      "precision": {
+        "mean": 0.89,
+        "std": 0.053,
+        "ci_lower": 0.8763,
+        "ci_upper": 0.9052
+      },
+      "sensitivity": {
+        "mean": 0.5462,
+        "std": 0.0905,
+        "ci_lower": 0.5213,
+        "ci_upper": 0.5693
+      },
+      "specificity": {
+        "mean": 0.8174,
+        "std": 0.1028,
+        "ci_lower": 0.7907,
+        "ci_upper": 0.8474
+      },
+      "f1": {
+        "mean": 0.6702,
+        "std": 0.064,
+        "ci_lower": 0.6521,
+        "ci_upper": 0.6867
+      },
+      "balanced_accuracy": {
+        "mean": 0.6818,
+        "std": 0.0346,
+        "ci_lower": 0.6727,
+        "ci_upper": 0.6911
+      },
+      "mcc": {
+        "mean": 0.3365,
+        "std": 0.0654,
+        "ci_lower": 0.3197,
+        "ci_upper": 0.3547
+      },
+      "roc_auc": {
+        "mean": 0.7359,
+        "std": 0.0428,
+        "ci_lower": 0.7248,
+        "ci_upper": 0.7465
+      },
+      "pr_auc": {
+        "mean": 0.8711,
+        "std": 0.0234,
+        "ci_lower": 0.8649,
+        "ci_upper": 0.8771
+      },
+      "brier": {
+        "mean": 0.1777,
+        "std": 0.0127,
+        "ci_lower": 0.1745,
+        "ci_upper": 0.1811
+      },
+      "ece": {
+        "mean": 0.0778,
+        "std": 0.0267,
+        "ci_lower": 0.0704,
+        "ci_upper": 0.085
+      }
+    },
+    "Minus Calibration": {
+      "accuracy": {
+        "mean": 0.627,
+        "std": 0.0473,
+        "ci_lower": 0.6129,
+        "ci_upper": 0.6399
+      },
+      "precision": {
+        "mean": 0.8916,
+        "std": 0.0518,
+        "ci_lower": 0.878,
+        "ci_upper": 0.9071
+      },
+      "sensitivity": {
+        "mean": 0.5498,
+        "std": 0.0881,
+        "ci_lower": 0.5246,
+        "ci_upper": 0.5727
+      },
+      "specificity": {
+        "mean": 0.8204,
+        "std": 0.1,
+        "ci_lower": 0.7952,
+        "ci_upper": 0.8499
+      },
+      "f1": {
+        "mean": 0.674,
+        "std": 0.0626,
+        "ci_lower": 0.6563,
+        "ci_upper": 0.6903
+      },
+      "balanced_accuracy": {
+        "mean": 0.6851,
+        "std": 0.036,
+        "ci_lower": 0.6753,
+        "ci_upper": 0.6948
+      },
+      "mcc": {
+        "mean": 0.342,
+        "std": 0.0673,
+        "ci_lower": 0.3235,
+        "ci_upper": 0.3606
+      },
+      "roc_auc": {
+        "mean": 0.7375,
+        "std": 0.0441,
+        "ci_lower": 0.7258,
+        "ci_upper": 0.7481
+      },
+      "pr_auc": {
+        "mean": 0.8885,
+        "std": 0.0239,
+        "ci_lower": 0.8826,
+        "ci_upper": 0.8942
+      },
+      "brier": {
+        "mean": 0.1758,
+        "std": 0.011,
+        "ci_lower": 0.1731,
+        "ci_upper": 0.1786
+      },
+      "ece": {
+        "mean": 0.0874,
+        "std": 0.0262,
+        "ci_lower": 0.0811,
+        "ci_upper": 0.0958
+      }
+    },
+    "Minus Threshold Optimization": {
+      "accuracy": {
+        "mean": 0.7114,
+        "std": 0.0338,
+        "ci_lower": 0.703,
+        "ci_upper": 0.7204
+      },
+      "precision": {
+        "mean": 0.7442,
+        "std": 0.022,
+        "ci_lower": 0.7383,
+        "ci_upper": 0.7509
+      },
+      "sensitivity": {
+        "mean": 0.9111,
+        "std": 0.0677,
+        "ci_lower": 0.8912,
+        "ci_upper": 0.9287
+      },
+      "specificity": {
+        "mean": 0.2109,
+        "std": 0.1233,
+        "ci_lower": 0.1761,
+        "ci_upper": 0.248
+      },
+      "f1": {
+        "mean": 0.8176,
+        "std": 0.028,
+        "ci_lower": 0.8101,
+        "ci_upper": 0.8248
+      },
+      "balanced_accuracy": {
+        "mean": 0.561,
+        "std": 0.0444,
+        "ci_lower": 0.5494,
+        "ci_upper": 0.5739
+      },
+      "mcc": {
+        "mean": 0.1664,
+        "std": 0.1129,
+        "ci_lower": 0.1369,
+        "ci_upper": 0.1967
+      },
+      "roc_auc": {
+        "mean": 0.7359,
+        "std": 0.0428,
+        "ci_lower": 0.7248,
+        "ci_upper": 0.7465
+      },
+      "pr_auc": {
+        "mean": 0.8711,
+        "std": 0.0234,
+        "ci_lower": 0.8649,
+        "ci_upper": 0.8771
+      },
+      "brier": {
+        "mean": 0.1777,
+        "std": 0.0127,
+        "ci_lower": 0.1745,
+        "ci_upper": 0.1811
+      },
+      "ece": {
+        "mean": 0.0778,
+        "std": 0.0267,
+        "ci_lower": 0.0704,
+        "ci_upper": 0.085
+      }
+    },
+    "GBDT-Only Ensemble": {
+      "accuracy": {
+        "mean": 0.6233,
+        "std": 0.0494,
+        "ci_lower": 0.6089,
+        "ci_upper": 0.6358
+      },
+      "precision": {
+        "mean": 0.8927,
+        "std": 0.0564,
+        "ci_lower": 0.8768,
+        "ci_upper": 0.9081
+      },
+      "sensitivity": {
+        "mean": 0.5456,
+        "std": 0.1006,
+        "ci_lower": 0.5157,
+        "ci_upper": 0.5713
+      },
+      "specificity": {
+        "mean": 0.8181,
+        "std": 0.1209,
+        "ci_lower": 0.7863,
+        "ci_upper": 0.8507
+      },
+      "f1": {
+        "mean": 0.6688,
+        "std": 0.0691,
+        "ci_lower": 0.6481,
+        "ci_upper": 0.6861
+      },
+      "balanced_accuracy": {
+        "mean": 0.6819,
+        "std": 0.0369,
+        "ci_lower": 0.672,
+        "ci_upper": 0.6925
+      },
+      "mcc": {
+        "mean": 0.3381,
+        "std": 0.0684,
+        "ci_lower": 0.3195,
+        "ci_upper": 0.3582
+      },
+      "roc_auc": {
+        "mean": 0.735,
+        "std": 0.0439,
+        "ci_lower": 0.7239,
+        "ci_upper": 0.7458
+      },
+      "pr_auc": {
+        "mean": 0.8706,
+        "std": 0.0238,
+        "ci_lower": 0.8644,
+        "ci_upper": 0.8764
+      },
+      "brier": {
+        "mean": 0.1777,
+        "std": 0.0127,
+        "ci_lower": 0.1744,
+        "ci_upper": 0.181
+      },
+      "ece": {
+        "mean": 0.0778,
+        "std": 0.0276,
+        "ci_lower": 0.0708,
+        "ci_upper": 0.085
+      }
+    },
+    "Minus Transformer": {
+      "accuracy": {
+        "mean": 0.6233,
+        "std": 0.0494,
+        "ci_lower": 0.6089,
+        "ci_upper": 0.6358
+      },
+      "precision": {
+        "mean": 0.8927,
+        "std": 0.0564,
+        "ci_lower": 0.8768,
+        "ci_upper": 0.9081
+      },
+      "sensitivity": {
+        "mean": 0.5456,
+        "std": 0.1006,
+        "ci_lower": 0.5157,
+        "ci_upper": 0.5713
+      },
+      "specificity": {
+        "mean": 0.8181,
+        "std": 0.1209,
+        "ci_lower": 0.7863,
+        "ci_upper": 0.8507
+      },
+      "f1": {
+        "mean": 0.6688,
+        "std": 0.0691,
+        "ci_lower": 0.6481,
+        "ci_upper": 0.6861
+      },
+      "balanced_accuracy": {
+        "mean": 0.6819,
+        "std": 0.0369,
+        "ci_lower": 0.672,
+        "ci_upper": 0.6925
+      },
+      "mcc": {
+        "mean": 0.3381,
+        "std": 0.0684,
+        "ci_lower": 0.3195,
+        "ci_upper": 0.3582
+      },
+      "roc_auc": {
+        "mean": 0.735,
+        "std": 0.0439,
+        "ci_lower": 0.7239,
+        "ci_upper": 0.7458
+      },
+      "pr_auc": {
+        "mean": 0.8706,
+        "std": 0.0238,
+        "ci_lower": 0.8644,
+        "ci_upper": 0.8764
+      },
+      "brier": {
+        "mean": 0.1777,
+        "std": 0.0127,
+        "ci_lower": 0.1744,
+        "ci_upper": 0.181
+      },
+      "ece": {
+        "mean": 0.0778,
+        "std": 0.0276,
+        "ci_lower": 0.0708,
+        "ci_upper": 0.085
+      }
+    },
+    "LR-Only": {
+      "accuracy": {
+        "mean": 0.6188,
+        "std": 0.0557,
+        "ci_lower": 0.6037,
+        "ci_upper": 0.6356
+      },
+      "precision": {
+        "mean": 0.8899,
+        "std": 0.0615,
+        "ci_lower": 0.8741,
+        "ci_upper": 0.9043
+      },
+      "sensitivity": {
+        "mean": 0.5405,
+        "std": 0.1046,
+        "ci_lower": 0.5152,
+        "ci_upper": 0.5716
+      },
+      "specificity": {
+        "mean": 0.8152,
+        "std": 0.1306,
+        "ci_lower": 0.7825,
+        "ci_upper": 0.846
+      },
+      "f1": {
+        "mean": 0.664,
+        "std": 0.0727,
+        "ci_lower": 0.6456,
+        "ci_upper": 0.6862
+      },
+      "balanced_accuracy": {
+        "mean": 0.6779,
+        "std": 0.0471,
+        "ci_lower": 0.6644,
+        "ci_upper": 0.6897
+      },
+      "mcc": {
+        "mean": 0.3313,
+        "std": 0.0866,
+        "ci_lower": 0.3075,
+        "ci_upper": 0.3518
+      },
+      "roc_auc": {
+        "mean": 0.7406,
+        "std": 0.0557,
+        "ci_lower": 0.726,
+        "ci_upper": 0.7553
+      },
+      "pr_auc": {
+        "mean": 0.8694,
+        "std": 0.0286,
+        "ci_lower": 0.8623,
+        "ci_upper": 0.8773
+      },
+      "brier": {
+        "mean": 0.1769,
+        "std": 0.0154,
+        "ci_lower": 0.173,
+        "ci_upper": 0.1808
+      },
+      "ece": {
+        "mean": 0.0759,
+        "std": 0.0297,
+        "ci_lower": 0.0681,
+        "ci_upper": 0.0844
+      }
+    },
+    "Transformer-Only": {
+      "accuracy": {
+        "mean": 0.6715,
+        "std": 0.0505,
+        "ci_lower": 0.6561,
+        "ci_upper": 0.6844
+      },
+      "precision": {
+        "mean": 0.8021,
+        "std": 0.09,
+        "ci_lower": 0.7802,
+        "ci_upper": 0.8263
+      },
+      "sensitivity": {
+        "mean": 0.7632,
+        "std": 0.2003,
+        "ci_lower": 0.7057,
+        "ci_upper": 0.8154
+      },
+      "specificity": {
+        "mean": 0.4434,
+        "std": 0.3669,
+        "ci_lower": 0.346,
+        "ci_upper": 0.5413
+      },
+      "f1": {
+        "mean": 0.7565,
+        "std": 0.0773,
+        "ci_lower": 0.7332,
+        "ci_upper": 0.7769
+      },
+      "balanced_accuracy": {
+        "mean": 0.6033,
+        "std": 0.0909,
+        "ci_lower": 0.5798,
+        "ci_upper": 0.6273
+      },
+      "mcc": {
+        "mean": 0.1975,
+        "std": 0.1683,
+        "ci_lower": 0.1519,
+        "ci_upper": 0.2427
+      },
+      "roc_auc": {
+        "mean": 0.7169,
+        "std": 0.0432,
+        "ci_lower": 0.7057,
+        "ci_upper": 0.7286
+      },
+      "pr_auc": {
+        "mean": 0.8534,
+        "std": 0.0266,
+        "ci_lower": 0.8461,
+        "ci_upper": 0.8609
+      },
+      "brier": {
+        "mean": 0.1951,
+        "std": 0.0399,
+        "ci_lower": 0.1866,
+        "ci_upper": 0.2073
+      },
+      "ece": {
+        "mean": 0.1121,
+        "std": 0.0659,
+        "ci_lower": 0.098,
+        "ci_upper": 0.1312
+      }
+    }
+  },
+  "wbcd": {
+    "Full DS-HTE": {
+      "accuracy": {
+        "mean": 0.9622,
+        "std": 0.0202,
+        "ci_lower": 0.9563,
+        "ci_upper": 0.9677
+      },
+      "precision": {
+        "mean": 0.9465,
+        "std": 0.0435,
+        "ci_lower": 0.9326,
+        "ci_upper": 0.9577
+      },
+      "sensitivity": {
+        "mean": 0.955,
+        "std": 0.0381,
+        "ci_lower": 0.9448,
+        "ci_upper": 0.966
+      },
+      "specificity": {
+        "mean": 0.9664,
+        "std": 0.0302,
+        "ci_lower": 0.9566,
+        "ci_upper": 0.9736
+      },
+      "f1": {
+        "mean": 0.9496,
+        "std": 0.0261,
+        "ci_lower": 0.9419,
+        "ci_upper": 0.9566
+      },
+      "balanced_accuracy": {
+        "mean": 0.9607,
+        "std": 0.0208,
+        "ci_lower": 0.9548,
+        "ci_upper": 0.9662
+      },
+      "mcc": {
+        "mean": 0.9208,
+        "std": 0.0411,
+        "ci_lower": 0.9091,
+        "ci_upper": 0.9317
+      },
+      "roc_auc": {
+        "mean": 0.991,
+        "std": 0.0107,
+        "ci_lower": 0.9879,
+        "ci_upper": 0.9939
+      },
+      "pr_auc": {
+        "mean": 0.9835,
+        "std": 0.0194,
+        "ci_lower": 0.9782,
+        "ci_upper": 0.9883
+      },
+      "brier": {
+        "mean": 0.0256,
+        "std": 0.0124,
+        "ci_lower": 0.0226,
+        "ci_upper": 0.0287
+      },
+      "ece": {
+        "mean": 0.0286,
+        "std": 0.0127,
+        "ci_lower": 0.0252,
+        "ci_upper": 0.0322
+      }
+    },
+    "Minus Feature Optimization": {
+      "accuracy": {
+        "mean": 0.9697,
+        "std": 0.0176,
+        "ci_lower": 0.9648,
+        "ci_upper": 0.9743
+      },
+      "precision": {
+        "mean": 0.9675,
+        "std": 0.0333,
+        "ci_lower": 0.9581,
+        "ci_upper": 0.9765
+      },
+      "sensitivity": {
+        "mean": 0.952,
+        "std": 0.0447,
+        "ci_lower": 0.9399,
+        "ci_upper": 0.9644
+      },
+      "specificity": {
+        "mean": 0.98,
+        "std": 0.0209,
+        "ci_lower": 0.9741,
+        "ci_upper": 0.9856
+      },
+      "f1": {
+        "mean": 0.9586,
+        "std": 0.0249,
+        "ci_lower": 0.952,
+        "ci_upper": 0.9653
+      },
+      "balanced_accuracy": {
+        "mean": 0.966,
+        "std": 0.0214,
+        "ci_lower": 0.9599,
+        "ci_upper": 0.9718
+      },
+      "mcc": {
+        "mean": 0.936,
+        "std": 0.0369,
+        "ci_lower": 0.9261,
+        "ci_upper": 0.9459
+      },
+      "roc_auc": {
+        "mean": 0.9925,
+        "std": 0.0092,
+        "ci_lower": 0.9897,
+        "ci_upper": 0.9949
+      },
+      "pr_auc": {
+        "mean": 0.9874,
+        "std": 0.0143,
+        "ci_lower": 0.983,
+        "ci_upper": 0.9911
+      },
+      "brier": {
+        "mean": 0.0221,
+        "std": 0.0119,
+        "ci_lower": 0.019,
+        "ci_upper": 0.0254
+      },
+      "ece": {
+        "mean": 0.0271,
+        "std": 0.0129,
+        "ci_lower": 0.0234,
+        "ci_upper": 0.0307
+      }
+    },
+    "Minus Imbalance Handling": {
+      "accuracy": {
+        "mean": 0.9622,
+        "std": 0.0202,
+        "ci_lower": 0.9563,
+        "ci_upper": 0.9677
+      },
+      "precision": {
+        "mean": 0.9465,
+        "std": 0.0435,
+        "ci_lower": 0.9326,
+        "ci_upper": 0.9577
+      },
+      "sensitivity": {
+        "mean": 0.955,
+        "std": 0.0381,
+        "ci_lower": 0.9448,
+        "ci_upper": 0.966
+      },
+      "specificity": {
+        "mean": 0.9664,
+        "std": 0.0302,
+        "ci_lower": 0.9566,
+        "ci_upper": 0.9736
+      },
+      "f1": {
+        "mean": 0.9496,
+        "std": 0.0261,
+        "ci_lower": 0.9419,
+        "ci_upper": 0.9566
+      },
+      "balanced_accuracy": {
+        "mean": 0.9607,
+        "std": 0.0208,
+        "ci_lower": 0.9548,
+        "ci_upper": 0.9662
+      },
+      "mcc": {
+        "mean": 0.9208,
+        "std": 0.0411,
+        "ci_lower": 0.9091,
+        "ci_upper": 0.9317
+      },
+      "roc_auc": {
+        "mean": 0.991,
+        "std": 0.0107,
+        "ci_lower": 0.9879,
+        "ci_upper": 0.9939
+      },
+      "pr_auc": {
+        "mean": 0.9835,
+        "std": 0.0194,
+        "ci_lower": 0.9782,
+        "ci_upper": 0.9883
+      },
+      "brier": {
+        "mean": 0.0256,
+        "std": 0.0124,
+        "ci_lower": 0.0226,
+        "ci_upper": 0.0287
+      },
+      "ece": {
+        "mean": 0.0286,
+        "std": 0.0127,
+        "ci_lower": 0.0252,
+        "ci_upper": 0.0322
+      }
+    },
+    "Minus Calibration": {
+      "accuracy": {
+        "mean": 0.9642,
+        "std": 0.0193,
+        "ci_lower": 0.9586,
+        "ci_upper": 0.9692
+      },
+      "precision": {
+        "mean": 0.9514,
+        "std": 0.0397,
+        "ci_lower": 0.9391,
+        "ci_upper": 0.9607
+      },
+      "sensitivity": {
+        "mean": 0.9544,
+        "std": 0.0376,
+        "ci_lower": 0.944,
+        "ci_upper": 0.9652
+      },
+      "specificity": {
+        "mean": 0.9699,
+        "std": 0.0265,
+        "ci_lower": 0.9615,
+        "ci_upper": 0.9759
+      },
+      "f1": {
+        "mean": 0.952,
+        "std": 0.0254,
+        "ci_lower": 0.9449,
+        "ci_upper": 0.9586
+      },
+      "balanced_accuracy": {
+        "mean": 0.9622,
+        "std": 0.0206,
+        "ci_lower": 0.9564,
+        "ci_upper": 0.9676
+      },
+      "mcc": {
+        "mean": 0.9246,
+        "std": 0.04,
+        "ci_lower": 0.913,
+        "ci_upper": 0.9351
+      },
+      "roc_auc": {
+        "mean": 0.9953,
+        "std": 0.0053,
+        "ci_lower": 0.9938,
+        "ci_upper": 0.9966
+      },
+      "pr_auc": {
+        "mean": 0.9936,
+        "std": 0.0064,
+        "ci_lower": 0.9919,
+        "ci_upper": 0.9953
+      },
+      "brier": {
+        "mean": 0.0243,
+        "std": 0.0098,
+        "ci_lower": 0.0216,
+        "ci_upper": 0.0269
+      },
+      "ece": {
+        "mean": 0.0491,
+        "std": 0.0113,
+        "ci_lower": 0.0461,
+        "ci_upper": 0.0523
+      }
+    },
+    "Minus Threshold Optimization": {
+      "accuracy": {
+        "mean": 0.9648,
+        "std": 0.0175,
+        "ci_lower": 0.96,
+        "ci_upper": 0.9695
+      },
+      "precision": {
+        "mean": 0.9632,
+        "std": 0.0366,
+        "ci_lower": 0.9529,
+        "ci_upper": 0.9733
+      },
+      "sensitivity": {
+        "mean": 0.9431,
+        "std": 0.0373,
+        "ci_lower": 0.932,
+        "ci_upper": 0.9544
+      },
+      "specificity": {
+        "mean": 0.9776,
+        "std": 0.0235,
+        "ci_lower": 0.9706,
+        "ci_upper": 0.9839
+      },
+      "f1": {
+        "mean": 0.9522,
+        "std": 0.0235,
+        "ci_lower": 0.9457,
+        "ci_upper": 0.9586
+      },
+      "balanced_accuracy": {
+        "mean": 0.9604,
+        "std": 0.0194,
+        "ci_lower": 0.9553,
+        "ci_upper": 0.9658
+      },
+      "mcc": {
+        "mean": 0.9256,
+        "std": 0.0367,
+        "ci_lower": 0.9154,
+        "ci_upper": 0.9355
+      },
+      "roc_auc": {
+        "mean": 0.991,
+        "std": 0.0107,
+        "ci_lower": 0.9879,
+        "ci_upper": 0.9939
+      },
+      "pr_auc": {
+        "mean": 0.9835,
+        "std": 0.0194,
+        "ci_lower": 0.9782,
+        "ci_upper": 0.9883
+      },
+      "brier": {
+        "mean": 0.0256,
+        "std": 0.0124,
+        "ci_lower": 0.0226,
+        "ci_upper": 0.0287
+      },
+      "ece": {
+        "mean": 0.0286,
+        "std": 0.0127,
+        "ci_lower": 0.0252,
+        "ci_upper": 0.0322
+      }
+    },
+    "GBDT-Only Ensemble": {
+      "accuracy": {
+        "mean": 0.9607,
+        "std": 0.021,
+        "ci_lower": 0.9546,
+        "ci_upper": 0.9663
+      },
+      "precision": {
+        "mean": 0.9485,
+        "std": 0.0442,
+        "ci_lower": 0.9348,
+        "ci_upper": 0.9598
+      },
+      "sensitivity": {
+        "mean": 0.9485,
+        "std": 0.0443,
+        "ci_lower": 0.9367,
+        "ci_upper": 0.961
+      },
+      "specificity": {
+        "mean": 0.9678,
+        "std": 0.0299,
+        "ci_lower": 0.9585,
+        "ci_upper": 0.9751
+      },
+      "f1": {
+        "mean": 0.9472,
+        "std": 0.0277,
+        "ci_lower": 0.9391,
+        "ci_upper": 0.9547
+      },
+      "balanced_accuracy": {
+        "mean": 0.9582,
+        "std": 0.0227,
+        "ci_lower": 0.9517,
+        "ci_upper": 0.9643
+      },
+      "mcc": {
+        "mean": 0.9175,
+        "std": 0.0429,
+        "ci_lower": 0.9054,
+        "ci_upper": 0.929
+      },
+      "roc_auc": {
+        "mean": 0.9909,
+        "std": 0.0107,
+        "ci_lower": 0.9879,
+        "ci_upper": 0.9936
+      },
+      "pr_auc": {
+        "mean": 0.9831,
+        "std": 0.0197,
+        "ci_lower": 0.9776,
+        "ci_upper": 0.9881
+      },
+      "brier": {
+        "mean": 0.0258,
+        "std": 0.0122,
+        "ci_lower": 0.0228,
+        "ci_upper": 0.0289
+      },
+      "ece": {
+        "mean": 0.0293,
+        "std": 0.0122,
+        "ci_lower": 0.0262,
+        "ci_upper": 0.033
+      }
+    },
+    "Minus Transformer": {
+      "accuracy": {
+        "mean": 0.9607,
+        "std": 0.021,
+        "ci_lower": 0.9546,
+        "ci_upper": 0.9663
+      },
+      "precision": {
+        "mean": 0.9485,
+        "std": 0.0442,
+        "ci_lower": 0.9348,
+        "ci_upper": 0.9598
+      },
+      "sensitivity": {
+        "mean": 0.9485,
+        "std": 0.0443,
+        "ci_lower": 0.9367,
+        "ci_upper": 0.961
+      },
+      "specificity": {
+        "mean": 0.9678,
+        "std": 0.0299,
+        "ci_lower": 0.9585,
+        "ci_upper": 0.9751
+      },
+      "f1": {
+        "mean": 0.9472,
+        "std": 0.0277,
+        "ci_lower": 0.9391,
+        "ci_upper": 0.9547
+      },
+      "balanced_accuracy": {
+        "mean": 0.9582,
+        "std": 0.0227,
+        "ci_lower": 0.9517,
+        "ci_upper": 0.9643
+      },
+      "mcc": {
+        "mean": 0.9175,
+        "std": 0.0429,
+        "ci_lower": 0.9054,
+        "ci_upper": 0.929
+      },
+      "roc_auc": {
+        "mean": 0.9909,
+        "std": 0.0107,
+        "ci_lower": 0.9879,
+        "ci_upper": 0.9936
+      },
+      "pr_auc": {
+        "mean": 0.9831,
+        "std": 0.0197,
+        "ci_lower": 0.9776,
+        "ci_upper": 0.9881
+      },
+      "brier": {
+        "mean": 0.0258,
+        "std": 0.0122,
+        "ci_lower": 0.0228,
+        "ci_upper": 0.0289
+      },
+      "ece": {
+        "mean": 0.0293,
+        "std": 0.0122,
+        "ci_lower": 0.0262,
+        "ci_upper": 0.033
+      }
+    },
+    "LR-Only": {
+      "accuracy": {
+        "mean": 0.9629,
+        "std": 0.0195,
+        "ci_lower": 0.9571,
+        "ci_upper": 0.9679
+      },
+      "precision": {
+        "mean": 0.9506,
+        "std": 0.042,
+        "ci_lower": 0.9381,
+        "ci_upper": 0.9609
+      },
+      "sensitivity": {
+        "mean": 0.952,
+        "std": 0.0411,
+        "ci_lower": 0.9406,
+        "ci_upper": 0.9639
+      },
+      "specificity": {
+        "mean": 0.9692,
+        "std": 0.0282,
+        "ci_lower": 0.9606,
+        "ci_upper": 0.9759
+      },
+      "f1": {
+        "mean": 0.9501,
+        "std": 0.0255,
+        "ci_lower": 0.9427,
+        "ci_upper": 0.9567
+      },
+      "balanced_accuracy": {
+        "mean": 0.9606,
+        "std": 0.021,
+        "ci_lower": 0.9549,
+        "ci_upper": 0.9662
+      },
+      "mcc": {
+        "mean": 0.922,
+        "std": 0.04,
+        "ci_lower": 0.9107,
+        "ci_upper": 0.9324
+      },
+      "roc_auc": {
+        "mean": 0.9908,
+        "std": 0.0108,
+        "ci_lower": 0.9878,
+        "ci_upper": 0.9935
+      },
+      "pr_auc": {
+        "mean": 0.9831,
+        "std": 0.02,
+        "ci_lower": 0.9775,
+        "ci_upper": 0.988
+      },
+      "brier": {
+        "mean": 0.0259,
+        "std": 0.0121,
+        "ci_lower": 0.0228,
+        "ci_upper": 0.0289
+      },
+      "ece": {
+        "mean": 0.031,
+        "std": 0.0133,
+        "ci_lower": 0.0274,
+        "ci_upper": 0.0345
+      }
+    },
+    "Transformer-Only": {
+      "accuracy": {
+        "mean": 0.9481,
+        "std": 0.0277,
+        "ci_lower": 0.941,
+        "ci_upper": 0.9554
+      },
+      "precision": {
+        "mean": 0.9532,
+        "std": 0.0578,
+        "ci_lower": 0.9361,
+        "ci_upper": 0.9681
+      },
+      "sensitivity": {
+        "mean": 0.911,
+        "std": 0.0751,
+        "ci_lower": 0.8921,
+        "ci_upper": 0.9322
+      },
+      "specificity": {
+        "mean": 0.9699,
+        "std": 0.0408,
+        "ci_lower": 0.9578,
+        "ci_upper": 0.9801
+      },
+      "f1": {
+        "mean": 0.9281,
+        "std": 0.0393,
+        "ci_lower": 0.9181,
+        "ci_upper": 0.9384
+      },
+      "balanced_accuracy": {
+        "mean": 0.9405,
+        "std": 0.0335,
+        "ci_lower": 0.9319,
+        "ci_upper": 0.9496
+      },
+      "mcc": {
+        "mean": 0.8922,
+        "std": 0.0563,
+        "ci_lower": 0.8775,
+        "ci_upper": 0.9071
+      },
+      "roc_auc": {
+        "mean": 0.974,
+        "std": 0.0212,
+        "ci_lower": 0.9681,
+        "ci_upper": 0.9792
+      },
+      "pr_auc": {
+        "mean": 0.9562,
+        "std": 0.0358,
+        "ci_lower": 0.9459,
+        "ci_upper": 0.9656
+      },
+      "brier": {
+        "mean": 0.0418,
+        "std": 0.0208,
+        "ci_lower": 0.0363,
+        "ci_upper": 0.0478
+      },
+      "ece": {
+        "mean": 0.0472,
+        "std": 0.0208,
+        "ci_lower": 0.0417,
+        "ci_upper": 0.053
+      }
+    }
+  }
+}

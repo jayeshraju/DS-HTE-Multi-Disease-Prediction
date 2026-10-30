@@ -1,0 +1,13 @@
+{
+  "artifact_file": "ilpd_duplicate_leakage_experiment.json",
+  "target_path": "results/audit/ilpd_duplicate_leakage_experiment.json",
+  "script_name": "src/evaluation/audit.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "e175e685bb06e9ef584bf2301b3dbc5547dffc62f6c31cfe462fcdaf065181ad",
+  "timestamp": "2026-10-29T16:00:06.381710",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

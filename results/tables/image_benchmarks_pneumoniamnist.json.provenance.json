@@ -1,0 +1,13 @@
+{
+  "artifact_file": "image_benchmarks_pneumoniamnist.json",
+  "target_path": "results/tables/image_benchmarks_pneumoniamnist.json",
+  "script_name": "src/reporting/tables.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "fc6b097f09987d3477b6c1b35f94e8138ca5efb68cbb82582aaf8fc16eb10df7",
+  "timestamp": "2026-10-29T16:00:07.426592",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

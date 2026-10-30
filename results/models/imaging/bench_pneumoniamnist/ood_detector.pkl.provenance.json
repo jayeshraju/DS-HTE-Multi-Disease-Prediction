@@ -1,0 +1,13 @@
+{
+  "artifact_file": "ood_detector.pkl",
+  "target_path": "results/models/imaging/bench_pneumoniamnist/ood_detector.pkl",
+  "script_name": "src/run_all.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "2038e5f6f57e596d6a882620b1d44007e3e3e27c44573385bf5a09054c3db534",
+  "timestamp": "2026-10-29T16:00:07.300838",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

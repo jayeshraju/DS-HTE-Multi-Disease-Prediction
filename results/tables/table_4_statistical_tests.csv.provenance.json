@@ -1,0 +1,13 @@
+{
+  "artifact_file": "table_4_statistical_tests.csv",
+  "target_path": "results/tables/table_4_statistical_tests.csv",
+  "script_name": "src/reporting/tables.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "6a9f90246981a87ecfe86b7b5c51a7efcc377992bd5b4d894874debf92d4ac3b",
+  "timestamp": "2026-10-29T16:00:08.193540",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

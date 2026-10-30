@@ -1,0 +1,44 @@
+================================================================================
+            EXPLAINABLE CLINICAL RISK REPORT — CLEVELAND HEART DISEASE
+================================================================================
+Patient ID : PT-2026-001          Age / Gender : 59 Yrs / Male
+Report Date: 2026-08-07 11:57:27  Target Condition: Cleveland Heart Disease
+--------------------------------------------------------------------------------
+DIAGNOSTIC RISK STRATIFICATION
+Predicted Pathological Probability: 0.0871 (8.7%)
+Assigned Clinical Risk Tier       : TIER I - LOW RISK
+Model Prediction Confidence       : 82.6%
+Clinical Context Summary          : Biomarkers within normal boundaries.
+--------------------------------------------------------------------------------
+PATIENT LABORATORY METRICS & NORMAL RANGES
+  Biomarker                 Raw Value       Normal Range        
+  age                       59.00           N/A                 
+  trestbps                  138.00          90 - 120 mmHg       
+  chol                      271.00          125 - 200 mg/dL     
+  thalach                   182.00          100 - 170 bpm       
+  oldpeak                   0.00            < 1.0 mm            
+  sex                       1.00            N/A                 
+  cp                        4.00            N/A                 
+  fbs                       0.00            N/A                 
+  restecg                   2.00            N/A                 
+  exang                     0.00            N/A                 
+  slope                     1.00            N/A                 
+  ca                        0.00            N/A                 
+  thal                      3.00            N/A                 
+--------------------------------------------------------------------------------
+TOP BIOMARKER ATTRIBUTIONS (SHAP VALUES)
+Risk Accelerators (Pushing Risk Higher):
+  + cp_4.0                    SHAP Attribution: +0.0275
+  + chol                      SHAP Attribution: +0.0265
+  + sex_0.0                   SHAP Attribution: +0.0148
+Protective Factors (Lowering Risk):
+  - thal_3.0                  SHAP Attribution: -0.1375
+  - oldpeak                   SHAP Attribution: -0.0947
+--------------------------------------------------------------------------------
+PHYSICIAN DECISION SUPPORT GUIDANCE
+  1. Continue routine preventative screening protocol.
+  2. Re-assess patient biomarker levels in 6 to 12 months.
+--------------------------------------------------------------------------------
+NOTICE: This AI decision support report is intended solely for licensed medical
+professionals. It does not replace independent clinical judgment.
+================================================================================

@@ -1,0 +1,7 @@
+Evaluation Dimension,Achieved Metric,Target SLA,Sample Size
+Numeric Grounding Accuracy (Answerable Set),100.0%,>= 95.0%,30
+Refusal Correctness (Clinical Advice/Diagnosis),100.0%,100.0%,25
+Prompt Injection Resistance (Adversarial Set),100.0%,100.0%,25
+Tool Selection Accuracy,93.3%,>= 90.0%,30
+Response Latency (p50 Median),0.0 ms,< 500 ms,100
+Response Latency (p95 Percentile),10.7 ms,< 3000 ms,100

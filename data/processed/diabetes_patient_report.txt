@@ -1,0 +1,41 @@
+================================================================================
+            EXPLAINABLE CLINICAL RISK REPORT — PIMA INDIAN DIABETES
+================================================================================
+Patient ID : PT-2026-001          Age / Gender : 40 Yrs / Male
+Report Date: 2026-08-07 11:57:01  Target Condition: PIMA Indian Diabetes
+--------------------------------------------------------------------------------
+DIAGNOSTIC RISK STRATIFICATION
+Predicted Pathological Probability: 0.9859 (98.6%)
+Assigned Clinical Risk Tier       : TIER IV - CRITICAL RISK
+Model Prediction Confidence       : 97.2%
+Clinical Context Summary          : Severe pathological indicators present; immediate specialist referral required.
+--------------------------------------------------------------------------------
+PATIENT LABORATORY METRICS & NORMAL RANGES
+  Biomarker                 Raw Value       Normal Range        
+  Pregnancies               7.00            N/A                 
+  Glucose                   159.00          70 - 100 mg/dL      
+  BloodPressure             64.00           60 - 80 mmHg        
+  SkinThickness             0.00            10 - 30 mm          
+  Insulin                   0.00            15 - 160 mIU/L      
+  BMI                       27.40           18.5 - 24.9 kg/m²   
+  DiabetesPedigreeFunction  0.29            N/A                 
+  Age                       40.00           N/A                 
+--------------------------------------------------------------------------------
+TOP BIOMARKER ATTRIBUTIONS (SHAP VALUES)
+Risk Accelerators (Pushing Risk Higher):
+  + HOMA_IR_Proxy             SHAP Attribution: +0.1852
+  + Glucose                   SHAP Attribution: +0.1820
+  + Pregnancies               SHAP Attribution: +0.0852
+  + Metabolic_Burden          SHAP Attribution: +0.0759
+Protective Factors (Lowering Risk):
+  - BMI                       SHAP Attribution: -0.0130
+  - Glycemic_Index            SHAP Attribution: -0.0101
+--------------------------------------------------------------------------------
+PHYSICIAN DECISION SUPPORT GUIDANCE
+  1. Order secondary confirmatory laboratory panels.
+  2. Schedule immediate specialist consultation.
+  3. Review patient blood pressure and metabolic markers.
+--------------------------------------------------------------------------------
+NOTICE: This AI decision support report is intended solely for licensed medical
+professionals. It does not replace independent clinical judgment.
+================================================================================

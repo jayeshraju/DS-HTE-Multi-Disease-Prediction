@@ -1,0 +1,13 @@
+{
+  "artifact_file": "duplicates_cleveland.md",
+  "target_path": "results/audit/duplicates_cleveland.md",
+  "script_name": "src/evaluation/audit.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "ed986b9ca499668949b8df4d49b64121c82ee4a6e1cf3b6730e0f7edcdb51714",
+  "timestamp": "2026-10-29T16:00:06.102743",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

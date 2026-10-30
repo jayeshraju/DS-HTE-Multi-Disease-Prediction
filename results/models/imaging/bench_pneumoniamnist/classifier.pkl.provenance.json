@@ -1,0 +1,13 @@
+{
+  "artifact_file": "classifier.pkl",
+  "target_path": "results/models/imaging/bench_pneumoniamnist/classifier.pkl",
+  "script_name": "src/run_all.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "6d49c2621b8e91b5d8c799542d43ee7146b39e992acd85e6306d5feb06d4cfc2",
+  "timestamp": "2026-10-29T16:00:07.249931",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

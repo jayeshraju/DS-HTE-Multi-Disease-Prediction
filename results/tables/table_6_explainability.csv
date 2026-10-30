@@ -1,0 +1,6 @@
+Dataset,Top Clinical Features (Ranked by SHAP),SHAP-LIME Spearman Agreement
+PIMA,"Glucose, BMI, DiabetesPedigreeFunction, Pregnancies, Age",0.943
+Cleveland,"ca_0.0, cp_4.0, thal_7.0, exang_1.0, sex_1.0",0.912
+CKD,"hemo, pcv, al_0.0, sc, dm_yes",0.712
+ILPD,"Alamine_Aminotransferase, Total_Protiens, Albumin, Direct_Bilirubin, Age",-0.029
+WBCD,"area_worst, concave_points_worst, radius_se, texture_worst, symmetry_worst",0.912

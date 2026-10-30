@@ -1,0 +1,13 @@
+{
+  "artifact_file": "table_1_cv_mean.csv",
+  "target_path": "results/tables/table_1_cv_mean.csv",
+  "script_name": "src/reporting/tables.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "cc82a740ffe3ebf8115de03f01c9ae9b9e68f41ef76ffda2cda8c50c85e2df63",
+  "timestamp": "2026-10-29T16:00:07.500514",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

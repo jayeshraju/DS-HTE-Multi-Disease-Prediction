@@ -1,0 +1,13 @@
+{
+  "artifact_file": "ablation_fold_metrics.parquet",
+  "target_path": "results/fold_metrics/ablation_fold_metrics.parquet",
+  "script_name": "src/run_all.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "b169a97060de2d6fc77dfeb86702f331ba96b2e858fcaf62b1ccf8c72062be2d",
+  "timestamp": "2026-10-29T16:00:06.773331",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

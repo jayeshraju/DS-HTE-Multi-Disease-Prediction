@@ -1,0 +1,49 @@
+{
+  "cohort": "cleveland",
+  "n_samples": 303,
+  "n_features": 13,
+  "numerical_features": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalach",
+    "oldpeak"
+  ],
+  "categorical_features": [
+    "sex",
+    "cp",
+    "fbs",
+    "restecg",
+    "exang",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "class_balance": {
+    "counts": {
+      "0": 164,
+      "1": 139
+    },
+    "proportions": {
+      "0": 0.5412541254125413,
+      "1": 0.45874587458745875
+    },
+    "imbalance_ratio": 1.1798561151079137
+  },
+  "overall_missing_rate": 0.0015232292460015233,
+  "feature_missing_rates": {
+    "age": 0.0,
+    "sex": 0.0,
+    "cp": 0.0,
+    "trestbps": 0.0,
+    "chol": 0.0,
+    "fbs": 0.0,
+    "restecg": 0.0,
+    "thalach": 0.0,
+    "exang": 0.0,
+    "oldpeak": 0.0,
+    "slope": 0.0,
+    "ca": 0.013201320132013201,
+    "thal": 0.006600660066006601
+  }
+}

@@ -1,0 +1,43 @@
+================================================================================
+            EXPLAINABLE CLINICAL RISK REPORT — INDIAN LIVER PATIENT DATASET (ILPD)
+================================================================================
+Patient ID : PT-2026-001          Age / Gender : 19 Yrs / Female
+Report Date: 2026-08-07 11:58:01  Target Condition: Indian Liver Patient Dataset (ILPD)
+--------------------------------------------------------------------------------
+DIAGNOSTIC RISK STRATIFICATION
+Predicted Pathological Probability: 0.7411 (74.1%)
+Assigned Clinical Risk Tier       : TIER III - HIGH RISK
+Model Prediction Confidence       : 48.2%
+Clinical Context Summary          : Pathological thresholds exceeded; early intervention recommended.
+--------------------------------------------------------------------------------
+PATIENT LABORATORY METRICS & NORMAL RANGES
+  Biomarker                 Raw Value       Normal Range        
+  Age                       19.00           N/A                 
+  Total_Bilirubin           0.70            0.1 - 1.2 mg/dL     
+  Direct_Bilirubin          0.20            0.0 - 0.3 mg/dL     
+  Alkaline_Phosphotase      186.00          44 - 147 IU/L       
+  Alamine_Aminotransferase  166.00          7 - 56 IU/L         
+  Aspartate_Aminotransferase 397.00          10 - 40 IU/L        
+  Total_Protiens            5.50            6.0 - 8.3 g/dL      
+  Albumin                   3.00            3.5 - 5.0 g/dL      
+  Albumin_and_Globulin_Ratio 1.20            0.8 - 2.0           
+  Gender                    Female          N/A                 
+--------------------------------------------------------------------------------
+TOP BIOMARKER ATTRIBUTIONS (SHAP VALUES)
+Risk Accelerators (Pushing Risk Higher):
+  + Alamine_Aminotransferase  SHAP Attribution: +0.1123
+  + Aspartate_Aminotransferase SHAP Attribution: +0.1094
+  + AG_Discrepancy            SHAP Attribution: +0.0597
+  + Albumin                   SHAP Attribution: +0.0367
+Protective Factors (Lowering Risk):
+  - Age                       SHAP Attribution: -0.0517
+  - Bilirubin_Index           SHAP Attribution: -0.0373
+--------------------------------------------------------------------------------
+PHYSICIAN DECISION SUPPORT GUIDANCE
+  1. Order secondary confirmatory laboratory panels.
+  2. Schedule immediate specialist consultation.
+  3. Review patient blood pressure and metabolic markers.
+--------------------------------------------------------------------------------
+NOTICE: This AI decision support report is intended solely for licensed medical
+professionals. It does not replace independent clinical judgment.
+================================================================================

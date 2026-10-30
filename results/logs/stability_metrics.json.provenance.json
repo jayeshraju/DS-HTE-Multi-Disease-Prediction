@@ -1,0 +1,13 @@
+{
+  "artifact_file": "stability_metrics.json",
+  "target_path": "results/logs/stability_metrics.json",
+  "script_name": "src/run_all.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "e002a0700812f04248d2460cbcadef698a7fab5fe25f0327411849cb9c29b248",
+  "timestamp": "2026-10-29T16:00:07.063989",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

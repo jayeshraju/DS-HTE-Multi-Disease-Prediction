@@ -1,0 +1,13 @@
+{
+  "artifact_file": "degenerate_p_values.md",
+  "target_path": "results/audit/degenerate_p_values.md",
+  "script_name": "src/evaluation/audit.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "05782ede9d05220313ba8bc051b4202055e8eaa5da4b8aaeb01df3fecffff8fa",
+  "timestamp": "2026-10-29T16:00:06.053142",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

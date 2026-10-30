@@ -1,0 +1,13 @@
+{
+  "artifact_file": "fig_2_confusion_matrices.pdf",
+  "target_path": "results/figures/fig_2_confusion_matrices.pdf",
+  "script_name": "src/reporting/figures.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "432a6b7bdf2b4b8071051cb8a2fd051b06b4dca16839248c9498f2f95fec2a1a",
+  "timestamp": "2026-10-29T16:00:06.509999",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

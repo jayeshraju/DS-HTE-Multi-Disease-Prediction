@@ -1,0 +1,31 @@
+{
+  "dataset": "breastmnist",
+  "split_sizes": {
+    "train": 546,
+    "val": 78,
+    "test": 156
+  },
+  "test_distribution": {
+    "neg": 42,
+    "pos": 114
+  },
+  "majority_rate": 73.08,
+  "validation_threshold": 0.31,
+  "achieved_accuracy": 80.13,
+  "achieved_roc_auc": 0.8187,
+  "achieved_brier": 0.1449,
+  "achieved_ece": 0.1115,
+  "confusion_matrix": [
+    [
+      21,
+      21
+    ],
+    [
+      10,
+      104
+    ]
+  ],
+  "published_baseline_acc": "82.0% - 86.0%",
+  "published_baseline_roc_auc": "0.88 - 0.91",
+  "disclaimer": "Research prototype, not a diagnostic device."
+}

@@ -1,0 +1,13 @@
+{
+  "artifact_file": "ensemble_diagnostics.md",
+  "target_path": "results/audit/ensemble_diagnostics.md",
+  "script_name": "src/evaluation/audit.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "f60bfa8697c1f3686042934b572941edab981ade4e38ee03336a56165b724b24",
+  "timestamp": "2026-10-29T16:00:06.265795",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

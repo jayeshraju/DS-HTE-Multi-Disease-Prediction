@@ -1,0 +1,14 @@
+{
+  "table_name": "table_1_cv_mean",
+  "title": "Table I: DS-HTE Performance Across Five Clinical Datasets (50 Outer CV Folds Mean)",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "row_count": 5,
+  "columns": [
+    "Dataset",
+    "ACCURACY",
+    "F1",
+    "MCC",
+    "SENSITIVITY"
+  ]
+}

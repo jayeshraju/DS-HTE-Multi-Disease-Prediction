@@ -1,0 +1,19 @@
+{
+  "table_name": "external_validation_heart",
+  "title": "External Multi-Center Clinical Validation: Heart Disease",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "row_count": 3,
+  "columns": [
+    "Validation Center",
+    "Dataset Key",
+    "Sample Size (N)",
+    "Accuracy (%)",
+    "Delta vs Cleveland Acc",
+    "Balanced Acc",
+    "ROC-AUC",
+    "Delta vs Cleveland AUC",
+    "Brier Score",
+    "Majority Baseline (%)"
+  ]
+}

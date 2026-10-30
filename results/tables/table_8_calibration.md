@@ -1,0 +1,12 @@
+# Table VIII: Probability Calibration Impact (Before vs After DS-HTE Calibration)
+
+| Dataset | ECE Before | ECE After | ECE Delta | Brier Before | Brier After | Brier Delta |
+| :--- | ---: | ---: | ---: | ---: | ---: | ---: |
+| PIMA | 0.086 | 0.077 | -0.008 | 0.154 | 0.156 | +0.001 |
+| Cleveland | 0.128 | 0.129 | +0.001 | 0.127 | 0.127 | +0.000 |
+| CKD | 0.049 | 0.013 | -0.036 | 0.012 | 0.010 | -0.002 |
+| ILPD | 0.087 | 0.078 | -0.010 | 0.176 | 0.178 | +0.002 |
+| WBCD | 0.049 | 0.029 | -0.020 | 0.024 | 0.026 | +0.001 |
+
+---
+*Run ID: `dshte_paper_20261029_113441` | Config Hash: `9ac2a61966dc6226`*

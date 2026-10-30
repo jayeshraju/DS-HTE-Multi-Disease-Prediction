@@ -1,0 +1,12 @@
+{
+  "table_name": "table_6_explainability",
+  "title": "Table VI: Clinical Feature Importance and SHAP-LIME Explainer Consensus",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "row_count": 5,
+  "columns": [
+    "Dataset",
+    "Top Clinical Features (Ranked by SHAP)",
+    "SHAP-LIME Spearman Agreement"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "artifact_file": "duplicates_ilpd.md",
+  "target_path": "results/audit/duplicates_ilpd.md",
+  "script_name": "src/evaluation/audit.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "27144cb982135de8fb3e7ba710264f540490047018c7d65105bd6823c486eb5d",
+  "timestamp": "2026-10-29T16:00:06.129466",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

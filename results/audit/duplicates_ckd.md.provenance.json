@@ -1,0 +1,13 @@
+{
+  "artifact_file": "duplicates_ckd.md",
+  "target_path": "results/audit/duplicates_ckd.md",
+  "script_name": "src/evaluation/audit.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "e74c787ceaf6abac30bbd0db8ed87bec747895c26bf2bce6fee3d2a00f15cb48",
+  "timestamp": "2026-10-29T16:00:06.078631",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

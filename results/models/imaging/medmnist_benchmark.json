@@ -1,0 +1,64 @@
+{
+  "pneumoniamnist": {
+    "dataset": "pneumoniamnist",
+    "split_sizes": {
+      "train": 4708,
+      "val": 524,
+      "test": 624
+    },
+    "test_distribution": {
+      "neg": 234,
+      "pos": 390
+    },
+    "majority_rate": 62.5,
+    "validation_threshold": 0.74,
+    "achieved_accuracy": 82.21,
+    "achieved_roc_auc": 0.91,
+    "achieved_brier": 0.1605,
+    "achieved_ece": 0.1587,
+    "confusion_matrix": [
+      [
+        141,
+        93
+      ],
+      [
+        18,
+        372
+      ]
+    ],
+    "published_baseline_acc": "85.0% - 88.0%",
+    "published_baseline_roc_auc": "0.94 - 0.96",
+    "disclaimer": "Research prototype, not a diagnostic device."
+  },
+  "breastmnist": {
+    "dataset": "breastmnist",
+    "split_sizes": {
+      "train": 546,
+      "val": 78,
+      "test": 156
+    },
+    "test_distribution": {
+      "neg": 42,
+      "pos": 114
+    },
+    "majority_rate": 73.08,
+    "validation_threshold": 0.31,
+    "achieved_accuracy": 80.13,
+    "achieved_roc_auc": 0.8187,
+    "achieved_brier": 0.1449,
+    "achieved_ece": 0.1115,
+    "confusion_matrix": [
+      [
+        21,
+        21
+      ],
+      [
+        10,
+        104
+      ]
+    ],
+    "published_baseline_acc": "82.0% - 86.0%",
+    "published_baseline_roc_auc": "0.88 - 0.91",
+    "disclaimer": "Research prototype, not a diagnostic device."
+  }
+}

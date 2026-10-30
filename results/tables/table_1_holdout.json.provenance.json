@@ -1,0 +1,13 @@
+{
+  "artifact_file": "table_1_holdout.json",
+  "target_path": "results/tables/table_1_holdout.json",
+  "script_name": "src/reporting/tables.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "3268a6983a3b659d1efcfd23496a352133e7c0058fc3f747f29b7cba1c780dbf",
+  "timestamp": "2026-10-29T16:00:07.896277",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

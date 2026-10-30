@@ -1,0 +1,38 @@
+{
+  "cohort": "pima",
+  "n_samples": 768,
+  "n_features": 8,
+  "numerical_features": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ],
+  "categorical_features": [],
+  "class_balance": {
+    "counts": {
+      "0": 500,
+      "1": 268
+    },
+    "proportions": {
+      "0": 0.6510416666666666,
+      "1": 0.3489583333333333
+    },
+    "imbalance_ratio": 1.8656716417910448
+  },
+  "overall_missing_rate": 0.10611979166666667,
+  "feature_missing_rates": {
+    "Pregnancies": 0.0,
+    "Glucose": 0.006510416666666667,
+    "BloodPressure": 0.045572916666666664,
+    "SkinThickness": 0.2955729166666667,
+    "Insulin": 0.4869791666666667,
+    "BMI": 0.014322916666666666,
+    "DiabetesPedigreeFunction": 0.0,
+    "Age": 0.0
+  }
+}

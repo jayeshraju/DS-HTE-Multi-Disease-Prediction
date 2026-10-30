@@ -1,0 +1,21 @@
+{
+  "table_name": "table_2_dshte_metrics",
+  "title": "Table II: Comprehensive 11-Metric Performance Profile for DS-HTE",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "row_count": 5,
+  "columns": [
+    "Dataset",
+    "ACCURACY",
+    "PRECISION",
+    "SENSITIVITY",
+    "SPECIFICITY",
+    "F1",
+    "BALANCED_ACCURACY",
+    "MCC",
+    "ROC_AUC",
+    "PR_AUC",
+    "BRIER",
+    "ECE"
+  ]
+}

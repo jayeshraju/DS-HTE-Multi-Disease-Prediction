@@ -1,0 +1,13 @@
+{
+  "artifact_file": "fig_extra_decision_curve.png",
+  "target_path": "results/figures/fig_extra_decision_curve.png",
+  "script_name": "src/reporting/figures.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "7a5d69c99af92d74dba5e5b7d5b5642664b1cb8e13f8858688bfbbaa4e93dc74",
+  "timestamp": "2026-10-29T16:00:06.747911",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

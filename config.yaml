@@ -1,0 +1,65 @@
+# DS-HTE Configuration
+seed: 42
+profile: dev  # Default active profile: smoke | dev | paper
+
+profiles:
+  smoke:
+    n_repeats: 2
+    n_outer_folds: 2
+    n_inner_folds: 2
+    optuna_trials: 2
+    transformer_epochs: 2
+    transformer_pretrain_epochs: 1
+    gbdt_n_estimators: 15
+    batch_size: 32
+    d_model: 32
+    n_heads: 2
+    n_layers: 1
+    description: "Tiny run under 2 minutes for testing pipeline integrity"
+
+  dev:
+    n_repeats: 3
+    n_outer_folds: 5
+    n_inner_folds: 3
+    optuna_trials: 10
+    transformer_epochs: 10
+    transformer_pretrain_epochs: 3
+    gbdt_n_estimators: 60
+    batch_size: 32
+    d_model: 64
+    n_heads: 4
+    n_layers: 2
+    description: "Medium development profile for fast verification"
+
+  paper:
+    n_repeats: 10
+    n_outer_folds: 5
+    n_inner_folds: 2
+    optuna_trials: 5
+    transformer_epochs: 3
+    transformer_pretrain_epochs: 1
+    gbdt_n_estimators: 25
+    batch_size: 64
+    d_model: 32
+    n_heads: 2
+    n_layers: 1
+    description: "Full paper protocol: 10 repeats of 5 folds = 50 outer validation estimates"
+
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  holdout_fraction: 0.20
+  cohorts:
+    - pima
+    - cleveland
+    - ckd
+    - ilpd
+    - wbcd
+
+output:
+  results_dir: "results"
+  tables_dir: "results/tables"
+  figures_dir: "results/figures"
+  models_dir: "results/models"
+  audit_dir: "results/audit"
+  logs_dir: "results/logs"

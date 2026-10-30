@@ -1,0 +1,13 @@
+{
+  "artifact_file": "fig_extra_calibration.pdf",
+  "target_path": "results/figures/fig_extra_calibration.pdf",
+  "script_name": "src/reporting/figures.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "6dfaef926491d05bead7b0ee949edaebfb0c3c4be2ed2d6b884a1f2f868b7b7f",
+  "timestamp": "2026-10-29T16:00:06.672107",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

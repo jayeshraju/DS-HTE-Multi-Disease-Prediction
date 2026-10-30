@@ -1,0 +1,19 @@
+{
+  "table_name": "table_4_statistical_tests",
+  "title": "Table IV: Statistical Significance Comparisons and Directional Labeling",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "row_count": 30,
+  "columns": [
+    "Dataset",
+    "Comparison",
+    "Direction",
+    "Wilcoxon W",
+    "Wilcoxon p",
+    "Holm Adj p",
+    "BH FDR p",
+    "DeLong p",
+    "McNemar p (Holdout)",
+    "Nadeau-Bengio p"
+  ]
+}

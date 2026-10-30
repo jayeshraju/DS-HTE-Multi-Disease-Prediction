@@ -1,0 +1,11 @@
+{
+  "artifact_file": "external_validation_heart.json",
+  "target_path": "results/tables/external_validation_heart.json",
+  "script_name": "src/evaluation/external_validation.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "740e939b12c93a86a488909810c2fea66afa71b3debd1c45f2639626f6052b69",
+  "timestamp": "2026-10-29T16:13:37.163383",
+  "input_file_hashes": {}
+}

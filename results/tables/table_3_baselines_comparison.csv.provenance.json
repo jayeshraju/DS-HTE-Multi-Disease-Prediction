@@ -1,0 +1,13 @@
+{
+  "artifact_file": "table_3_baselines_comparison.csv",
+  "target_path": "results/tables/table_3_baselines_comparison.csv",
+  "script_name": "src/reporting/tables.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "9e5f06103b4a8254e49ff68832221a581cb5e4cbc68a7b1f2f1545157c093843",
+  "timestamp": "2026-10-29T16:00:08.088788",
+  "input_file_hashes": {
+    "results/run_manifest.json": "41c046e15fad08aadf9c260069470cd3957f344f3edba2e1bbe2ef4e9931e04d"
+  }
+}

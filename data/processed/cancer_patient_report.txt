@@ -1,0 +1,62 @@
+================================================================================
+            EXPLAINABLE CLINICAL RISK REPORT — WISCONSIN BREAST CANCER DIAGNOSTIC (WBCD)
+================================================================================
+Patient ID : PT-2026-001          Age / Gender : 55 Yrs / Male
+Report Date: 2026-08-07 11:58:21  Target Condition: Wisconsin Breast Cancer Diagnostic (WBCD)
+--------------------------------------------------------------------------------
+DIAGNOSTIC RISK STRATIFICATION
+Predicted Pathological Probability: 0.0061 (0.6%)
+Assigned Clinical Risk Tier       : TIER I - LOW RISK
+Model Prediction Confidence       : 98.8%
+Clinical Context Summary          : Biomarkers within normal boundaries.
+--------------------------------------------------------------------------------
+PATIENT LABORATORY METRICS & NORMAL RANGES
+  Biomarker                 Raw Value       Normal Range        
+  radius_mean               11.41           N/A                 
+  texture_mean              10.82           N/A                 
+  perimeter_mean            73.34           N/A                 
+  area_mean                 403.30          N/A                 
+  smoothness_mean           0.09            N/A                 
+  compactness_mean          0.07            N/A                 
+  concavity_mean            0.04            N/A                 
+  concave_points_mean       0.03            N/A                 
+  symmetry_mean             0.17            N/A                 
+  fractal_dimension_mean    0.06            N/A                 
+  radius_se                 0.14            N/A                 
+  texture_se                0.46            N/A                 
+  perimeter_se              1.10            N/A                 
+  area_se                   10.50           N/A                 
+  smoothness_se             0.01            N/A                 
+  compactness_se            0.02            N/A                 
+  concavity_se              0.02            N/A                 
+  concave_points_se         0.01            N/A                 
+  symmetry_se               0.01            N/A                 
+  fractal_dimension_se      0.00            N/A                 
+  radius_worst              12.82           N/A                 
+  texture_worst             15.97           N/A                 
+  perimeter_worst           83.74           N/A                 
+  area_worst                510.50          N/A                 
+  smoothness_worst          0.15            N/A                 
+  compactness_worst         0.24            N/A                 
+  concavity_worst           0.21            N/A                 
+  concave_points_worst      0.09            N/A                 
+  symmetry_worst            0.30            N/A                 
+  fractal_dimension_worst   0.09            N/A                 
+--------------------------------------------------------------------------------
+TOP BIOMARKER ATTRIBUTIONS (SHAP VALUES)
+Risk Accelerators (Pushing Risk Higher):
+  + symmetry_worst            SHAP Attribution: +0.0120
+  + compactness_se            SHAP Attribution: +0.0102
+  + smoothness_worst          SHAP Attribution: +0.0096
+  + symmetry_se               SHAP Attribution: +0.0078
+Protective Factors (Lowering Risk):
+  - area_worst                SHAP Attribution: -0.2094
+  - texture_worst             SHAP Attribution: -0.0617
+--------------------------------------------------------------------------------
+PHYSICIAN DECISION SUPPORT GUIDANCE
+  1. Continue routine preventative screening protocol.
+  2. Re-assess patient biomarker levels in 6 to 12 months.
+--------------------------------------------------------------------------------
+NOTICE: This AI decision support report is intended solely for licensed medical
+professionals. It does not replace independent clinical judgment.
+================================================================================

@@ -1,0 +1,102 @@
+{
+  "PIMA": {
+    "paper": {
+      "acc": 81.2,
+      "f1": 0.784,
+      "mcc": 0.601,
+      "sens": 0.823
+    },
+    "cv": {
+      "accuracy": 73.68,
+      "f1": 0.6704,
+      "mcc": 0.4769,
+      "sensitivity": 0.7766
+    },
+    "holdout": {
+      "accuracy": 78.57,
+      "f1": 0.7442,
+      "mcc": 0.5908,
+      "sensitivity": 0.8889
+    }
+  },
+  "Cleveland": {
+    "paper": {
+      "acc": 88.4,
+      "f1": 0.861,
+      "mcc": 0.742,
+      "sens": 0.846
+    },
+    "cv": {
+      "accuracy": 81.96,
+      "f1": 0.7969,
+      "mcc": 0.6452,
+      "sensitivity": 0.7802
+    },
+    "holdout": {
+      "accuracy": 93.44,
+      "f1": 0.9286,
+      "mcc": 0.868,
+      "sensitivity": 0.9286
+    }
+  },
+  "CKD": {
+    "paper": {
+      "acc": 95.6,
+      "f1": 0.943,
+      "mcc": 0.887,
+      "sens": 0.944
+    },
+    "cv": {
+      "accuracy": 98.69,
+      "f1": 0.9896,
+      "mcc": 0.9724,
+      "sensitivity": 0.992
+    },
+    "holdout": {
+      "accuracy": 98.75,
+      "f1": 0.9901,
+      "mcc": 0.9735,
+      "sensitivity": 1.0
+    }
+  },
+  "ILPD": {
+    "paper": {
+      "acc": 79.3,
+      "f1": 0.771,
+      "mcc": 0.518,
+      "sens": 0.782
+    },
+    "cv": {
+      "accuracy": 62.36000000000001,
+      "f1": 0.6702,
+      "mcc": 0.3365,
+      "sensitivity": 0.5462
+    },
+    "holdout": {
+      "accuracy": 67.52,
+      "f1": 0.7361,
+      "mcc": 0.3665,
+      "sensitivity": 0.6386
+    }
+  },
+  "WBCD": {
+    "paper": {
+      "acc": 97.1,
+      "f1": 0.958,
+      "mcc": 0.928,
+      "sens": 0.963
+    },
+    "cv": {
+      "accuracy": 96.22,
+      "f1": 0.9496,
+      "mcc": 0.9208,
+      "sensitivity": 0.955
+    },
+    "holdout": {
+      "accuracy": 95.61,
+      "f1": 0.9438,
+      "mcc": 0.9093,
+      "sensitivity": 0.9767
+    }
+  }
+}

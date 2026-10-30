@@ -1,0 +1,11 @@
+{
+  "artifact_file": "system_benchmarks.csv",
+  "target_path": "results/tables/system_benchmarks.csv",
+  "script_name": "src/evaluation/system_benchmarks.py",
+  "run_id": "dshte_paper_20261029_113441",
+  "config_hash": "9ac2a61966dc6226",
+  "git_commit": "git_commit_unavailable",
+  "file_sha256": "9244f01a272a732f4e19d33a5178fd68709ea07a14a0450038508232c470bec3",
+  "timestamp": "2026-10-29T16:18:22.085588",
+  "input_file_hashes": {}
+}
