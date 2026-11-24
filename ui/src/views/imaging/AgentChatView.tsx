@@ -26,7 +26,7 @@ export const AgentChatView: React.FC<{
   ]);
 
   const suggestedQuestions = [
-    "What would improve model accuracy?",
+    "What would improve model accuracy effectively?",
     "Why are misclassifications occurring?",
     "Is the training data saturated?",
     "Can you diagnose this image?"
